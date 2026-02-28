@@ -6,7 +6,7 @@
 
 ## Versiones de idioma
 
-- Inglés (default): [index.md](./index.md)
+- Inglés (default): [README.md](./README.md)
 - Español espejo: este archivo
 
 ## Estado del sistema
