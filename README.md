@@ -45,16 +45,16 @@ Primary reference: [docs/closing_statement.md](./docs/closing_statement.md)
 
 ## Document map
 
-| File | Purpose |
-|---|---|
-| [manifesto.md](./manifesto.md) | Artist identity statement and core principles of the Oblokos system. |
-| [docs/whitepaper_v2.md](./docs/whitepaper_v2.md) | Conceptual and technical specification of fragments, layers, ownership, Polygon + Arweave infrastructure, and closed-cycle governance. |
-| [docs/teleport_lab_dossier.md](./docs/teleport_lab_dossier.md) | Curatorial and technical dossier for Teleport Lab: fact sheet, portal narrative, operation, preservation, and transfer model. |
-| [docs/nfts_teleport_lab.md](./docs/nfts_teleport_lab.md) | Inventory of NFTs used in Teleport Lab with token IDs, Arweave links, and marketplace references. |
-| [docs/glitch_system.md](./docs/glitch_system.md) | Glitch framework as a transversal sculptural mechanic (z-fighting, transparency, flicker) and system coherence criterion. |
-| [docs/credits_teleport_lab.md](./docs/credits_teleport_lab.md) | Full credits and licenses (CC-BY and proprietary components). |
-| [docs/acquisition_document.md](./docs/acquisition_document.md) | Installation acquisition/transfer template: included NFTs, rights, exclusivity, and operational clauses. |
-| [docs/closing_statement.md](./docs/closing_statement.md) | Official closure statement and post-decentralization rules. |
+| File                                                           | Purpose                                                                                                                                |
+| -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| [manifesto.md](./manifesto.md)                                 | Artist identity statement and core principles of the Oblokos system.                                                                   |
+| [docs/whitepaper_v2.md](./docs/whitepaper_v2.md)               | Conceptual and technical specification of fragments, layers, ownership, Polygon + Arweave infrastructure, and closed-cycle governance. |
+| [docs/teleport_lab_dossier.md](./docs/teleport_lab_dossier.md) | Curatorial and technical dossier for Teleport Lab: fact sheet, portal narrative, operation, preservation, and transfer model.          |
+| [docs/nfts_teleport_lab.md](./docs/nfts_teleport_lab.md)       | Inventory of NFTs used in Teleport Lab with token IDs, Arweave links, and marketplace references.                                      |
+| [docs/glitch_system.md](./docs/glitch_system.md)               | Glitch framework as a transversal sculptural mechanic (z-fighting, transparency, flicker) and system coherence criterion.              |
+| [docs/credits_teleport_lab.md](./docs/credits_teleport_lab.md) | Full credits and licenses (CC-BY and proprietary components).                                                                          |
+| [docs/acquisition_document.md](./docs/acquisition_document.md) | Installation acquisition/transfer template: included NFTs, rights, exclusivity, and operational clauses.                               |
+| [docs/closing_statement.md](./docs/closing_statement.md)       | Official closure statement and post-decentralization rules.                                                                            |
 
 ## Recommended reading order
 

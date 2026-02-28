@@ -8,10 +8,10 @@ No se aplica sobre una obra terminada. La obra se organiza desde condiciones de 
 
 Glitch funciona como:
 
-* lenguaje constructivo
-* capa perceptual
-* campo energético
-* dispositivo de revelación fragmentaria
+- lenguaje constructivo
+- capa perceptual
+- campo energético
+- dispositivo de revelación fragmentaria
 
 No pertenece a una sola instalación. Opera como lógica transversal del sistema.
 
@@ -23,10 +23,10 @@ Oblokos parte de una premisa: el error no se elimina, se incorpora.
 
 Fenómenos que normalmente se consideran fallas de render se convierten en:
 
-* tensión estructural
-* vibración de superficie
-* interferencia entre capas
-* fricción visual entre sistemas
+- tensión estructural
+- vibración de superficie
+- interferencia entre capas
+- fricción visual entre sistemas
 
 La inestabilidad deja de ser problema técnico y pasa a ser material escultórico.
 
@@ -38,10 +38,10 @@ El ensamblaje en Oblokos no sigue una lógica sólida tradicional. Se construye 
 
 Esto implica:
 
-* capas sin jerarquía espacial perfecta
-* superficies compitiendo por profundidad
-* transparencias reordenadas dinámicamente
-* formas cuya legibilidad cambia según el ángulo
+- capas sin jerarquía espacial perfecta
+- superficies compitiendo por profundidad
+- transparencias reordenadas dinámicamente
+- formas cuya legibilidad cambia según el ángulo
 
 La escultura no es un objeto estable. Es un campo en reorganización constante.
 
@@ -53,25 +53,25 @@ La escultura no es un objeto estable. Es un campo en reorganización constante.
 
 Uso escultórico:
 
-* erosión energética
-* materia en tensión
-* intersección entre planos físicos y energéticos
+- erosión energética
+- materia en tensión
+- intersección entre planos físicos y energéticos
 
 ### B. Orden imperfecto de transparencias
 
 Uso escultórico:
 
-* revelación fragmentaria
-* interpretación variable por capas
-* sistema que nunca se revela por completo
+- revelación fragmentaria
+- interpretación variable por capas
+- sistema que nunca se revela por completo
 
 ### C. Flicker dinámico
 
 Uso escultórico:
 
-* campo eléctrico perceptual
-* sensación de sistema activo
-* materia en flujo
+- campo eléctrico perceptual
+- sensación de sistema activo
+- materia en flujo
 
 ---
 
@@ -81,10 +81,10 @@ Las técnicas no son un catálogo cerrado. Oblokos define una actitud estructura
 
 Si aparecen nuevas oportunidades técnicas, pueden integrarse siempre que mantengan coherencia con:
 
-* error como artefacto
-* fragmentación como estructura
-* capas como lectura simultánea
-* inestabilidad como condición material
+- error como artefacto
+- fragmentación como estructura
+- capas como lectura simultánea
+- inestabilidad como condición material
 
 ---
 
@@ -92,11 +92,11 @@ Si aparecen nuevas oportunidades técnicas, pueden integrarse siempre que manten
 
 En el modelo de fragmentos y capas, el glitch coexiste con:
 
-* capa arquitectónica
-* capa energética
-* capa ecológica
-* capa narrativa
-* capa blockchain (propiedad y trazabilidad)
+- capa arquitectónica
+- capa energética
+- capa ecológica
+- capa narrativa
+- capa blockchain (propiedad y trazabilidad)
 
 No es decoración. Es una capa que altera la lectura de las otras.
 
@@ -108,10 +108,10 @@ Un error técnico rompe coherencia. Un glitch estructural la intensifica.
 
 La diferencia depende de:
 
-* intencionalidad
-* regulación de densidad
-* integración conceptual
-* control perceptual
+- intencionalidad
+- regulación de densidad
+- integración conceptual
+- control perceptual
 
 ---
 
@@ -119,10 +119,10 @@ La diferencia depende de:
 
 La escultura digital en Oblokos no es fija. Opera como:
 
-* campo inestable
-* ensamblaje temporal
-* materia digital en fricción
-* sistema que no se estabiliza del todo
+- campo inestable
+- ensamblaje temporal
+- materia digital en fricción
+- sistema que no se estabiliza del todo
 
 La percepción del visitante forma parte del ensamblaje.
 

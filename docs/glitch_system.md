@@ -8,10 +8,10 @@ It is not applied onto a finished work. The work is organized from conditions of
 
 Glitch functions as:
 
-* A constructive language  
-* A perceptual layer  
-* An energetic field  
-* A device for fragmentary revelation
+- A constructive language
+- A perceptual layer
+- An energetic field
+- A device for fragmentary revelation
 
 It does not belong to a specific installation. It operates as a transversal logic of the system.
 
@@ -23,10 +23,10 @@ Oblokos begins from a clear premise: error is not eliminated, it is incorporated
 
 Phenomena that would normally be considered rendering flaws or undesirable behaviors become:
 
-* Structural tension  
-* Surface vibration  
-* Interference between layers  
-* Visual friction between systems
+- Structural tension
+- Surface vibration
+- Interference between layers
+- Visual friction between systems
 
 Instability ceases to be a technical problem and becomes sculptural material.
 
@@ -40,10 +40,10 @@ It is not built as a compact block. It is built through friction between layers.
 
 This implies:
 
-* Layers that do not always respect perfect spatial hierarchy  
-* Surfaces competing for depth  
-* Transparencies dynamically reordered  
-* Forms whose legibility changes depending on viewing angle
+- Layers that do not always respect perfect spatial hierarchy
+- Surfaces competing for depth
+- Transparencies dynamically reordered
+- Forms whose legibility changes depending on viewing angle
 
 The sculpture is not a stable object. It is a field in constant reorganization.
 
@@ -59,9 +59,9 @@ Produces structural vibration between nearby planes.
 
 Sculptural use:
 
-* Sensation of energetic erosion  
-* Matter under tension  
-* Intersection between physical and energetic planes
+- Sensation of energetic erosion
+- Matter under tension
+- Intersection between physical and energetic planes
 
 ---
 
@@ -71,9 +71,9 @@ Generates partial disappearance or incomplete readings depending on viewer posit
 
 Sculptural use:
 
-* Fragmentary revelation  
-* Variable layer interpretation  
-* A system that never fully reveals itself
+- Fragmentary revelation
+- Variable layer interpretation
+- A system that never fully reveals itself
 
 ---
 
@@ -83,9 +83,9 @@ Alternation of visual dominance between overlapping surfaces.
 
 Sculptural use:
 
-* Perceptual electric field  
-* Sense of an active system  
-* Matter in flux
+- Perceptual electric field
+- Sense of an active system
+- Matter in flux
 
 ---
 
@@ -99,10 +99,10 @@ If new technical opportunities emerge — new engine behaviors, new perceptual f
 
 The criterion is not the effect itself. It is coherence with the project’s logic:
 
-* Error as artifact  
-* Fragmentation as structure  
-* Layers as simultaneous reading  
-* Instability as material condition
+- Error as artifact
+- Fragmentation as structure
+- Layers as simultaneous reading
+- Instability as material condition
 
 ---
 
@@ -112,11 +112,11 @@ Within the structural model of the system (fragments and layers), glitch is unde
 
 It coexists with:
 
-* Architectural layer  
-* Energetic layer  
-* Ecological layer  
-* Narrative layer  
-* Blockchain layer (ownership and traceability)
+- Architectural layer
+- Energetic layer
+- Ecological layer
+- Narrative layer
+- Blockchain layer (ownership and traceability)
 
 It is not decoration. It is a layer that alters how the others are perceived.
 
@@ -130,10 +130,10 @@ A technical error breaks coherence. A structural glitch intensifies it.
 
 The difference lies in:
 
-* Intentionality  
-* Density regulation  
-* Conceptual integration  
-* Perceptual control
+- Intentionality
+- Density regulation
+- Conceptual integration
+- Perceptual control
 
 The goal is not to simulate graphical malfunction. It is to reveal friction between systems.
 
@@ -147,10 +147,10 @@ Digital sculpture in Oblokos is not fixed.
 
 It behaves as:
 
-* A field in instability  
-* A temporal assembly  
-* Digital matter under friction  
-* A system that never fully stabilizes
+- A field in instability
+- A temporal assembly
+- Digital matter under friction
+- A system that never fully stabilizes
 
 The visitor does not observe a static image. They interact with a structure that reorganizes according to their position.
 
@@ -180,4 +180,4 @@ It is not automatically corrected. It is regulated.
 
 It is not ornament. It is matter.
 
-And it does not belong to a single work. It is part of the constructive language of the system.  
+And it does not belong to a single work. It is part of the constructive language of the system.

@@ -1,509 +1,611 @@
 ﻿<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>OBLOKOS Archive</title>
-  <style>
-    :root {
-      color-scheme: dark;
-      --bg: #060606;
-      --panel: #0e0e0e;
-      --text: #f3f3f3;
-      --muted: #9a9a9a;
-      --line: #2a2a2a;
-      --accent: #d7d7d7;
-      --radius: 12px;
-    }
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OBLOKOS Archive</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #060606;
+        --panel: #0e0e0e;
+        --text: #f3f3f3;
+        --muted: #9a9a9a;
+        --line: #2a2a2a;
+        --accent: #d7d7d7;
+        --radius: 12px;
+      }
 
-    * {
-      box-sizing: border-box;
-    }
+      * {
+        box-sizing: border-box;
+      }
 
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.5;
-      text-rendering: optimizeLegibility;
-    }
+      body {
+        margin: 0;
+        font-family:
+          system-ui,
+          -apple-system,
+          Segoe UI,
+          Roboto,
+          sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.5;
+        text-rendering: optimizeLegibility;
+      }
 
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
 
-    a:hover {
-      text-decoration: underline;
-    }
+      a:hover {
+        text-decoration: underline;
+      }
 
-    .wrap {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 32px 20px 60px;
-    }
-
-    section {
-      margin-top: 34px;
-      padding-top: 24px;
-      border-top: 1px solid var(--line);
-    }
-
-    h1,
-    h2,
-    h3,
-    p {
-      margin: 0;
-    }
-
-    h1 {
-      font-size: clamp(2rem, 7vw, 3.5rem);
-      letter-spacing: 0.04em;
-      font-weight: 600;
-      margin-top: 8px;
-    }
-
-    h2 {
-      font-size: 1.05rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--muted);
-      font-weight: 600;
-      margin-bottom: 14px;
-    }
-
-    h3 {
-      font-size: 1rem;
-      font-weight: 600;
-    }
-
-    .sub {
-      margin-top: 8px;
-      color: var(--accent);
-    }
-
-    .domain {
-      margin-top: 10px;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    .state-lines {
-      list-style: none;
-      margin: 14px 0 0;
-      padding: 0;
-      color: var(--text);
-    }
-
-    .state-lines li + li {
-      margin-top: 4px;
-    }
-
-    .actions,
-    .inline-actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 18px;
-    }
-
-    .btn,
-    button {
-      appearance: none;
-      border: 1px solid var(--line);
-      background: #121212;
-      color: var(--text);
-      padding: 9px 12px;
-      border-radius: 10px;
-      cursor: pointer;
-      font: inherit;
-      font-size: 0.92rem;
-      text-decoration: none;
-    }
-
-    .btn:hover,
-    button:hover {
-      border-color: #4a4a4a;
-      text-decoration: none;
-    }
-
-    button[disabled] {
-      cursor: not-allowed;
-      opacity: 0.5;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 12px;
-    }
-
-    .card {
-      border: 1px solid var(--line);
-      background: var(--panel);
-      border-radius: var(--radius);
-      padding: 14px;
-      min-height: 116px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      justify-content: space-between;
-    }
-
-    .mono {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-      font-size: 0.85rem;
-      word-break: break-all;
-    }
-
-    .note,
-    .muted {
-      color: var(--muted);
-      font-size: 0.92rem;
-    }
-
-    details {
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      background: var(--panel);
-      padding: 12px 14px;
-    }
-
-    details summary {
-      cursor: pointer;
-      font-weight: 600;
-      list-style: none;
-    }
-
-    details summary::-webkit-details-marker {
-      display: none;
-    }
-
-    details[open] summary {
-      margin-bottom: 10px;
-    }
-
-    .doc-list {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: grid;
-      gap: 10px;
-    }
-
-    .doc-item {
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      padding: 12px;
-      background: var(--panel);
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .doc-head {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .pending {
-      color: #b6a37a;
-      font-size: 0.82rem;
-    }
-
-    .install-note {
-      margin-top: 6px;
-    }
-
-    .install-links {
-      margin-top: 10px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-
-    .contact-line + .contact-line {
-      margin-top: 8px;
-    }
-
-    footer {
-      margin-top: 38px;
-      padding-top: 18px;
-      border-top: 1px solid var(--line);
-      color: var(--muted);
-      font-size: 0.9rem;
-    }
-
-    @media (max-width: 560px) {
       .wrap {
-        padding: 24px 14px 44px;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 32px 20px 60px;
+      }
+
+      section {
+        margin-top: 34px;
+        padding-top: 24px;
+        border-top: 1px solid var(--line);
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+
+      h1 {
+        font-size: clamp(2rem, 7vw, 3.5rem);
+        letter-spacing: 0.04em;
+        font-weight: 600;
+        margin-top: 8px;
+      }
+
+      h2 {
+        font-size: 1.05rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--muted);
+        font-weight: 600;
+        margin-bottom: 14px;
+      }
+
+      h3 {
+        font-size: 1rem;
+        font-weight: 600;
+      }
+
+      .sub {
+        margin-top: 8px;
+        color: var(--accent);
+      }
+
+      .domain {
+        margin-top: 10px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .state-lines {
+        list-style: none;
+        margin: 14px 0 0;
+        padding: 0;
+        color: var(--text);
+      }
+
+      .state-lines li + li {
+        margin-top: 4px;
+      }
+
+      .actions,
+      .inline-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 18px;
+      }
+
+      .btn,
+      button {
+        appearance: none;
+        border: 1px solid var(--line);
+        background: #121212;
+        color: var(--text);
+        padding: 9px 12px;
+        border-radius: 10px;
+        cursor: pointer;
+        font: inherit;
+        font-size: 0.92rem;
+        text-decoration: none;
+      }
+
+      .btn:hover,
+      button:hover {
+        border-color: #4a4a4a;
+        text-decoration: none;
+      }
+
+      button[disabled] {
+        cursor: not-allowed;
+        opacity: 0.5;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 12px;
+      }
+
+      .card {
+        border: 1px solid var(--line);
+        background: var(--panel);
+        border-radius: var(--radius);
+        padding: 14px;
+        min-height: 116px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: space-between;
+      }
+
+      .mono {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: 0.85rem;
+        word-break: break-all;
+      }
+
+      .note,
+      .muted {
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
+      details {
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--panel);
+        padding: 12px 14px;
+      }
+
+      details summary {
+        cursor: pointer;
+        font-weight: 600;
+        list-style: none;
+      }
+
+      details summary::-webkit-details-marker {
+        display: none;
+      }
+
+      details[open] summary {
+        margin-bottom: 10px;
+      }
+
+      .doc-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        gap: 10px;
       }
 
       .doc-item {
-        align-items: flex-start;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        padding: 12px;
+        background: var(--panel);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        align-items: center;
+        justify-content: space-between;
       }
-    }
-  </style>
-</head>
-<body>
-  <main class="wrap">
-    <header>
-      <h1>OBLOKOS</h1>
-      <p class="sub">Finite sculptural NFT system. Permanent archive.</p>
-      <p class="domain">Domain: oblokos.nft</p>
-      <ul class="state-lines">
-        <li>Core infrastructure: Polygon + Arweave</li>
-        <li>Cycle: Closed (as-built)</li>
-      </ul>
-      <div class="actions">
-        <a id="root1Link" class="btn" href="#" target="_blank" rel="noopener noreferrer">Open Root1 (NFT Infrastructure)</a>
-        <a id="teleportLink" class="btn" href="#" target="_blank" rel="noopener noreferrer">Teleport Lab (Installation I)</a>
-        <a id="dossierLink" class="btn" href="#">Download Dossier (PDF)</a>
-      </div>
-    </header>
 
-    <section aria-labelledby="anchors-title">
-      <h2 id="anchors-title">Verified Anchors</h2>
-      <div class="grid">
-        <article class="card">
-          <h3>Contract (Polygon)</h3>
-          <p id="contractValue" class="mono"></p>
-          <button type="button" data-copy-source="contractValue">Copy</button>
-        </article>
-        <article class="card">
-          <h3>Root1 TXID</h3>
-          <p id="root1TxidValue" class="mono"></p>
-          <button type="button" data-copy-source="root1TxidValue">Copy</button>
-        </article>
-        <article class="card">
-          <h3>Root1 Index URL</h3>
-          <p id="root1IndexValue" class="mono"></p>
-          <button type="button" data-copy-source="root1IndexValue">Copy</button>
-        </article>
+      .doc-head {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
 
-      </div>
-      <p class="note" style="margin-top:12px;">Root1 contains NFT metadata and renders. Root2 contains institutional documentation.</p>
-    </section>
+      .pending {
+        color: #b6a37a;
+        font-size: 0.82rem;
+      }
 
-    <section aria-labelledby="manifesto-title">
-      <h2 id="manifesto-title">Manifesto</h2>
-      <p>
-        Oblokos is a finite system made of fragments, not isolated objects.<br>
-        Each fragment enters layered constructions: spatial, ecological, perceptual, and on-chain.<br>
-        Error is treated as material evidence, not a defect to hide.<br>
-        Glitch acts as a constructive condition inside the work.<br>
-        The archive preserves both execution and limits.
-      </p>
-      <details style="margin-top:14px;">
-        <summary>Read full manifesto</summary>
-        <p>
-          Oblokos is built as a finite sculptural NFT system on Polygon and Arweave. Tokens are structural units that gain meaning in relation to each other, in space and in sequence. The work accepts layered composition: architecture, energy, ecology, perception, narrative, and verifiable provenance.
-        </p>
-        <p style="margin-top:10px;">
-          Computational anomalies are retained as part of the record. Glitch is approached as a stable production condition that exposes process and constraint. The archive is not promotional media; it is technical memory with explicit anchors and reproducible references.
-        </p>
-      </details>
-    </section>
+      .install-note {
+        margin-top: 6px;
+      }
 
-    <section aria-labelledby="closing-title">
-      <h2 id="closing-title">Closing Statement</h2>
-      <details>
-        <summary>Read as-built declaration</summary>
-        <p>This cycle is closed.</p>
-        <p>No retroactive rewriting.</p>
-        <p>Future works will be new cycles / contracts.</p>
-        <p id="contractStatus" style="margin-top:10px;"></p>
-        <p id="renounceDetail" class="muted" style="margin-top:6px;"></p>
-      </details>
-    </section>
+      .install-links {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
 
-    <section aria-labelledby="installations-title">
-      <h2 id="installations-title">Installations</h2>
-      <article class="card" style="min-height:0;">
-        <h3>Teleport Lab</h3>
-        <p class="muted">Platform: Spatial</p>
-        <p class="install-note">Platform-dependent installation. Documentation preserved here.</p>
-        <div class="install-links">
-          <a id="teleportLabOpen" class="btn" href="#" target="_blank" rel="noopener noreferrer">Open in Spatial</a>
-          <a class="btn" href="./docs/teleport_lab_dossier.md">Dossier Markdown</a>
-          <a class="btn" href="./docs/credits_teleport_lab.md">Credits Markdown</a>
-          <a class="btn" href="./docs/glitch_system.md">Glitch Doc Markdown</a>
+      .contact-line + .contact-line {
+        margin-top: 8px;
+      }
+
+      footer {
+        margin-top: 38px;
+        padding-top: 18px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 560px) {
+        .wrap {
+          padding: 24px 14px 44px;
+        }
+
+        .doc-item {
+          align-items: flex-start;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <header>
+        <h1>OBLOKOS</h1>
+        <p class="sub">Finite sculptural NFT system. Permanent archive.</p>
+        <p class="domain">Domain: oblokos.nft</p>
+        <ul class="state-lines">
+          <li>Core infrastructure: Polygon + Arweave</li>
+          <li>Cycle: Closed (as-built)</li>
+        </ul>
+        <div class="actions">
+          <a
+            id="root1Link"
+            class="btn"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Open Root1 (NFT Infrastructure)</a
+          >
+          <a
+            id="teleportLink"
+            class="btn"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Teleport Lab (Installation I)</a
+          >
+          <a id="dossierLink" class="btn" href="#">Download Dossier (PDF)</a>
         </div>
-      </article>
-      <p class="muted" style="margin-top:14px;">Future installations</p>
-    </section>
+      </header>
 
-    <section aria-labelledby="docs-title">
-      <h2 id="docs-title">Documentation</h2>
-      <ul id="docsList" class="doc-list"></ul>
-    </section>
+      <section aria-labelledby="anchors-title">
+        <h2 id="anchors-title">Verified Anchors</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Contract (Polygon)</h3>
+            <p id="contractValue" class="mono"></p>
+            <button type="button" data-copy-source="contractValue">Copy</button>
+          </article>
+          <article class="card">
+            <h3>Root1 TXID</h3>
+            <p id="root1TxidValue" class="mono"></p>
+            <button type="button" data-copy-source="root1TxidValue">
+              Copy
+            </button>
+          </article>
+          <article class="card">
+            <h3>Root1 Index URL</h3>
+            <p id="root1IndexValue" class="mono"></p>
+            <button type="button" data-copy-source="root1IndexValue">
+              Copy
+            </button>
+          </article>
+        </div>
+        <p class="note" style="margin-top: 12px">
+          Root1 contains NFT metadata and renders. Root2 contains institutional
+          documentation.
+        </p>
+      </section>
 
-    <section aria-labelledby="contact-title">
-      <h2 id="contact-title">Contact</h2>
-      <p class="contact-line">Email: <a href="mailto:oblokos.web@gmail.com">oblokos.web@gmail.com</a></p>
-      <p class="contact-line">PGP fingerprint: <span id="pgpFingerprint" class="mono">XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX</span></p>
-      <p class="contact-line muted">For acquisition inquiries, include intended venue/platform and timeframe.</p>
-    </section>
+      <section aria-labelledby="manifesto-title">
+        <h2 id="manifesto-title">Manifesto</h2>
+        <p>
+          Oblokos is a finite system made of fragments, not isolated objects.<br />
+          Each fragment enters layered constructions: spatial, ecological,
+          perceptual, and on-chain.<br />
+          Error is treated as material evidence, not a defect to hide.<br />
+          Glitch acts as a constructive condition inside the work.<br />
+          The archive preserves both execution and limits.
+        </p>
+        <details style="margin-top: 14px">
+          <summary>Read full manifesto</summary>
+          <p>
+            Oblokos is built as a finite sculptural NFT system on Polygon and
+            Arweave. Tokens are structural units that gain meaning in relation
+            to each other, in space and in sequence. The work accepts layered
+            composition: architecture, energy, ecology, perception, narrative,
+            and verifiable provenance.
+          </p>
+          <p style="margin-top: 10px">
+            Computational anomalies are retained as part of the record. Glitch
+            is approached as a stable production condition that exposes process
+            and constraint. The archive is not promotional media; it is
+            technical memory with explicit anchors and reproducible references.
+          </p>
+        </details>
+      </section>
 
-    <footer>
-      <p>OBLOKOS. Permanent archive. Verifiable anchors.</p>
-      <p id="footerYear"></p>
-    </footer>
-  </main>
+      <section aria-labelledby="closing-title">
+        <h2 id="closing-title">Closing Statement</h2>
+        <details>
+          <summary>Read as-built declaration</summary>
+          <p>This cycle is closed.</p>
+          <p>No retroactive rewriting.</p>
+          <p>Future works will be new cycles / contracts.</p>
+          <p id="contractStatus" style="margin-top: 10px"></p>
+          <p id="renounceDetail" class="muted" style="margin-top: 6px"></p>
+        </details>
+      </section>
 
-  <script>
-    const CONTRACT_RENOUNCED = false;
-    const CONTRACT_ADDRESS = "0x252f9390feb63aeb00042dd5c4ff84af33f42b85";
-    const ROOT1_TXID = "PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg";
-    const ROOT1_INDEX_URL = "https://arweave.net/PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg/";
+      <section aria-labelledby="installations-title">
+        <h2 id="installations-title">Installations</h2>
+        <article class="card" style="min-height: 0">
+          <h3>Teleport Lab</h3>
+          <p class="muted">Platform: Spatial</p>
+          <p class="install-note">
+            Platform-dependent installation. Documentation preserved here.
+          </p>
+          <div class="install-links">
+            <a
+              id="teleportLabOpen"
+              class="btn"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Open in Spatial</a
+            >
+            <a class="btn" href="./docs/teleport_lab_dossier.md"
+              >Dossier Markdown</a
+            >
+            <a class="btn" href="./docs/credits_teleport_lab.md"
+              >Credits Markdown</a
+            >
+            <a class="btn" href="./docs/glitch_system.md"
+              >Glitch Doc Markdown</a
+            >
+          </div>
+        </article>
+        <p class="muted" style="margin-top: 14px">Future installations</p>
+      </section>
 
-    const TELEPORT_LAB_URL = "https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462";
-    const DOSSIER_PDF_URL = "./docs/teleport_lab_dossier.md";
-    const PGP_FINGERPRINT = "XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX";
+      <section aria-labelledby="docs-title">
+        <h2 id="docs-title">Documentation</h2>
+        <ul id="docsList" class="doc-list"></ul>
+      </section>
 
-    const DOCUMENTS = [
-      { label: "whitepaper_v2.md", path: "./docs/whitepaper_v2.md", uploaded: false },
-      { label: "teleport_lab_dossier.md", path: "./docs/teleport_lab_dossier.md", uploaded: false },
-      { label: "credits_teleport_lab.md", path: "./docs/credits_teleport_lab.md", uploaded: false },
-      { label: "glitch_system.md", path: "./docs/glitch_system.md", uploaded: false },
-      { label: "acquisition_document.md", path: "./docs/acquisition_document.md", uploaded: false },
-      { label: "closing_statement.md", path: "./docs/closing_statement.md", uploaded: false },
-      { label: "nfts_teleport_lab.md", path: "./docs/nfts_teleport_lab.md", uploaded: false },
-    ];
+      <section aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <p class="contact-line">
+          Email:
+          <a href="mailto:oblokos.web@gmail.com">oblokos.web@gmail.com</a>
+        </p>
+        <p class="contact-line">
+          PGP fingerprint:
+          <span id="pgpFingerprint" class="mono"
+            >XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX</span
+          >
+        </p>
+        <p class="contact-line muted">
+          For acquisition inquiries, include intended venue/platform and
+          timeframe.
+        </p>
+      </section>
 
-    function detectTxid() {
-      const first = window.location.pathname.split("/").filter(Boolean)[0];
-      return /^[a-zA-Z0-9_-]{43}$/.test(first || "") ? first : null;
-    }
+      <footer>
+        <p>OBLOKOS. Permanent archive. Verifiable anchors.</p>
+        <p id="footerYear"></p>
+      </footer>
+    </main>
 
-    function getArchiveBase(txid) {
-      if (!txid) {
-        return null;
+    <script>
+      const CONTRACT_RENOUNCED = false;
+      const CONTRACT_ADDRESS = "0x252f9390feb63aeb00042dd5c4ff84af33f42b85";
+      const ROOT1_TXID = "PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg";
+      const ROOT1_INDEX_URL =
+        "https://arweave.net/PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg/";
+
+      const TELEPORT_LAB_URL =
+        "https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462";
+      const DOSSIER_PDF_URL = "./docs/teleport_lab_dossier.md";
+      const PGP_FINGERPRINT =
+        "XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX";
+
+      const DOCUMENTS = [
+        {
+          label: "whitepaper_v2.md",
+          path: "./docs/whitepaper_v2.md",
+          uploaded: false,
+        },
+        {
+          label: "teleport_lab_dossier.md",
+          path: "./docs/teleport_lab_dossier.md",
+          uploaded: false,
+        },
+        {
+          label: "credits_teleport_lab.md",
+          path: "./docs/credits_teleport_lab.md",
+          uploaded: false,
+        },
+        {
+          label: "glitch_system.md",
+          path: "./docs/glitch_system.md",
+          uploaded: false,
+        },
+        {
+          label: "acquisition_document.md",
+          path: "./docs/acquisition_document.md",
+          uploaded: false,
+        },
+        {
+          label: "closing_statement.md",
+          path: "./docs/closing_statement.md",
+          uploaded: false,
+        },
+        {
+          label: "nfts_teleport_lab.md",
+          path: "./docs/nfts_teleport_lab.md",
+          uploaded: false,
+        },
+      ];
+
+      function detectTxid() {
+        const first = window.location.pathname.split("/").filter(Boolean)[0];
+        return /^[a-zA-Z0-9_-]{43}$/.test(first || "") ? first : null;
       }
-      if (window.location.hostname === "arweave.net") {
-        return "https://arweave.net/" + txid;
-      }
-      return window.location.origin + "/" + txid;
-    }
 
-    async function copyText(text, button) {
-      const label = button.textContent;
-      try {
-        if (navigator.clipboard && window.isSecureContext) {
-          await navigator.clipboard.writeText(text);
-        } else {
-          const temp = document.createElement("textarea");
-          temp.value = text;
-          document.body.appendChild(temp);
-          temp.select();
-          document.execCommand("copy");
-          temp.remove();
+      function getArchiveBase(txid) {
+        if (!txid) {
+          return null;
         }
-        button.textContent = "Copied";
-      } catch (err) {
-        button.textContent = "Failed";
-      }
-      setTimeout(function() {
-        button.textContent = label;
-      }, 900);
-    }
-
-    function resolveCopyUrl(relativePath, base) {
-      if (!base) {
-        return relativePath;
-      }
-      return new URL(relativePath.replace(/^\.\//, ""), base + "/").toString();
-    }
-
-    function buildDocs(base) {
-      const list = document.getElementById("docsList");
-      DOCUMENTS.forEach(function(doc) {
-        const li = document.createElement("li");
-        li.className = "doc-item";
-
-        const head = document.createElement("div");
-        head.className = "doc-head";
-
-        const name = document.createElement("span");
-        name.className = "mono";
-        name.textContent = doc.path;
-        head.appendChild(name);
-
-        if (!doc.uploaded) {
-          const pending = document.createElement("span");
-          pending.className = "pending";
-          pending.textContent = "(pending upload)";
-          head.appendChild(pending);
+        if (window.location.hostname === "arweave.net") {
+          return "https://arweave.net/" + txid;
         }
+        return window.location.origin + "/" + txid;
+      }
 
-        const actions = document.createElement("div");
-        actions.className = "inline-actions";
-
-        const download = document.createElement("a");
-        download.className = "btn";
-        download.href = doc.path;
-        download.textContent = "Download";
-        download.setAttribute("download", "");
-
-        const copyBtn = document.createElement("button");
-        copyBtn.type = "button";
-        copyBtn.textContent = "Copy URL";
-        copyBtn.addEventListener("click", function() {
-          copyText(resolveCopyUrl(doc.path, base), copyBtn);
-        });
-
-        actions.appendChild(download);
-        actions.appendChild(copyBtn);
-
-        li.appendChild(head);
-        li.appendChild(actions);
-        list.appendChild(li);
-      });
-    }
-
-    function init() {
-      const txid = detectTxid();
-      const base = getArchiveBase(txid);
-
-      document.getElementById("root1Link").href = ROOT1_INDEX_URL;
-      document.getElementById("teleportLink").href = TELEPORT_LAB_URL;
-      document.getElementById("dossierLink").href = DOSSIER_PDF_URL;
-      document.getElementById("teleportLabOpen").href = TELEPORT_LAB_URL;
-      document.getElementById("pgpFingerprint").textContent = PGP_FINGERPRINT;
-
-      document.getElementById("contractValue").textContent = CONTRACT_ADDRESS;
-      document.getElementById("root1TxidValue").textContent = ROOT1_TXID;
-      document.getElementById("root1IndexValue").textContent = ROOT1_INDEX_URL;
-
-      document.querySelectorAll("[data-copy-source]").forEach(function(button) {
-        button.addEventListener("click", function() {
-          const source = document.getElementById(button.getAttribute("data-copy-source"));
-          if (!source || source.textContent.trim() === "unknown") {
-            return;
+      async function copyText(text, button) {
+        const label = button.textContent;
+        try {
+          if (navigator.clipboard && window.isSecureContext) {
+            await navigator.clipboard.writeText(text);
+          } else {
+            const temp = document.createElement("textarea");
+            temp.value = text;
+            document.body.appendChild(temp);
+            temp.select();
+            document.execCommand("copy");
+            temp.remove();
           }
-          copyText(source.textContent.trim(), button);
-        });
-      });
-
-      if (CONTRACT_RENOUNCED) {
-        document.getElementById("contractStatus").textContent = "Status: Contract renounced";
-        document.getElementById("renounceDetail").textContent = "Contract ownership renounced. Immutable administrative state.";
-      } else {
-        document.getElementById("contractStatus").textContent = "Status: Pending contract renounce";
-        document.getElementById("renounceDetail").textContent = "Ownership renounce is planned to finalize the administrative lifecycle.";
+          button.textContent = "Copied";
+        } catch (err) {
+          button.textContent = "Failed";
+        }
+        setTimeout(function () {
+          button.textContent = label;
+        }, 900);
       }
 
-      buildDocs(base);
-      document.getElementById("footerYear").textContent = String(new Date().getFullYear());
-    }
+      function resolveCopyUrl(relativePath, base) {
+        if (!base) {
+          return relativePath;
+        }
+        return new URL(
+          relativePath.replace(/^\.\//, ""),
+          base + "/",
+        ).toString();
+      }
 
-    init();
-  </script>
-</body>
+      function buildDocs(base) {
+        const list = document.getElementById("docsList");
+        DOCUMENTS.forEach(function (doc) {
+          const li = document.createElement("li");
+          li.className = "doc-item";
+
+          const head = document.createElement("div");
+          head.className = "doc-head";
+
+          const name = document.createElement("span");
+          name.className = "mono";
+          name.textContent = doc.path;
+          head.appendChild(name);
+
+          if (!doc.uploaded) {
+            const pending = document.createElement("span");
+            pending.className = "pending";
+            pending.textContent = "(pending upload)";
+            head.appendChild(pending);
+          }
+
+          const actions = document.createElement("div");
+          actions.className = "inline-actions";
+
+          const download = document.createElement("a");
+          download.className = "btn";
+          download.href = doc.path;
+          download.textContent = "Download";
+          download.setAttribute("download", "");
+
+          const copyBtn = document.createElement("button");
+          copyBtn.type = "button";
+          copyBtn.textContent = "Copy URL";
+          copyBtn.addEventListener("click", function () {
+            copyText(resolveCopyUrl(doc.path, base), copyBtn);
+          });
+
+          actions.appendChild(download);
+          actions.appendChild(copyBtn);
+
+          li.appendChild(head);
+          li.appendChild(actions);
+          list.appendChild(li);
+        });
+      }
+
+      function init() {
+        const txid = detectTxid();
+        const base = getArchiveBase(txid);
+
+        document.getElementById("root1Link").href = ROOT1_INDEX_URL;
+        document.getElementById("teleportLink").href = TELEPORT_LAB_URL;
+        document.getElementById("dossierLink").href = DOSSIER_PDF_URL;
+        document.getElementById("teleportLabOpen").href = TELEPORT_LAB_URL;
+        document.getElementById("pgpFingerprint").textContent = PGP_FINGERPRINT;
+
+        document.getElementById("contractValue").textContent = CONTRACT_ADDRESS;
+        document.getElementById("root1TxidValue").textContent = ROOT1_TXID;
+        document.getElementById("root1IndexValue").textContent =
+          ROOT1_INDEX_URL;
+
+        document
+          .querySelectorAll("[data-copy-source]")
+          .forEach(function (button) {
+            button.addEventListener("click", function () {
+              const source = document.getElementById(
+                button.getAttribute("data-copy-source"),
+              );
+              if (!source || source.textContent.trim() === "unknown") {
+                return;
+              }
+              copyText(source.textContent.trim(), button);
+            });
+          });
+
+        if (CONTRACT_RENOUNCED) {
+          document.getElementById("contractStatus").textContent =
+            "Status: Contract renounced";
+          document.getElementById("renounceDetail").textContent =
+            "Contract ownership renounced. Immutable administrative state.";
+        } else {
+          document.getElementById("contractStatus").textContent =
+            "Status: Pending contract renounce";
+          document.getElementById("renounceDetail").textContent =
+            "Ownership renounce is planned to finalize the administrative lifecycle.";
+        }
+
+        buildDocs(base);
+        document.getElementById("footerYear").textContent = String(
+          new Date().getFullYear(),
+        );
+      }
+
+      init();
+    </script>
+  </body>
 </html>
-
-

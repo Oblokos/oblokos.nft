@@ -1,10 +1,12 @@
-﻿# TELEPORT LAB  
-## Escultura digital site-specific en metaverso (Spatial.io)  
+﻿# TELEPORT LAB
+
+## Escultura digital site-specific en metaverso (Spatial.io)
+
 **Dossier profesional (ES) — Edición actualizada**
 
 **Artista:** Oblokos | **Creador en Spatial:** Luiggi (@oblokos)  
 **Año / release date:** 11 noviembre 2022 | **Edición:** Febrero 2026  
-**Link público:** https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462  
+**Link público:** https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462
 
 Obra dentro del sistema **Oblokos (OBLK)**.  
 **Capas:** arquitectura, energía, ecosistemas, glitch y datos on-chain.
@@ -13,25 +15,25 @@ Obra dentro del sistema **Oblokos (OBLK)**.
 
 ## Ficha técnica
 
-| Campo | Valor |
-|---|---|
-| **Título** | Teleport Lab |
-| **Artista** | @oblokos |
-| **Creador en Spatial** | Luiggi (@oblokos) |
-| **Año / release date** | 11 noviembre 2022 |
-| **Tipo de obra** | Escultura digital inmersiva / instalación virtual site-specific |
-| **Plataforma principal** | Spatial.io |
-| **Accesibilidad** | Web / Mobile / VR (según disponibilidad de Spatial) |
-| **Arquitectura base** | Template Agora (Spatial) |
-| **Dimensiones del ambiente (Agora)** | X 165 m / Y 20 m / Z 110 m (aprox.) |
-| **Link público** | https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462 |
-| **Sistema NFT asociado** | Oblokos (OBLK) — ERC-721 en Polygon |
-| **Contrato (Polygon)** | 0x252f9390feb63aeb00042dd5c4ff84af33f42b85 |
-| **Supply / holders (snapshot)** | 1,588 tokens / 5 holders |
-| **Infra permanente (Arweave Root 1)** | PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg |
-| **Index público (Arweave)** | https://arweave.net/PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg/ |
-| **Créditos y licencias** | Inventario completo + créditos listos para auditoría (CC-BY + propietario) |
-| **Nota site-specific** | La experiencia 3D depende de Spatial; la trazabilidad NFT y la documentación pueden preservarse fuera de plataforma. |
+| Campo                                 | Valor                                                                                                                |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Título**                            | Teleport Lab                                                                                                         |
+| **Artista**                           | @oblokos                                                                                                             |
+| **Creador en Spatial**                | Luiggi (@oblokos)                                                                                                    |
+| **Año / release date**                | 11 noviembre 2022                                                                                                    |
+| **Tipo de obra**                      | Escultura digital inmersiva / instalación virtual site-specific                                                      |
+| **Plataforma principal**              | Spatial.io                                                                                                           |
+| **Accesibilidad**                     | Web / Mobile / VR (según disponibilidad de Spatial)                                                                  |
+| **Arquitectura base**                 | Template Agora (Spatial)                                                                                             |
+| **Dimensiones del ambiente (Agora)**  | X 165 m / Y 20 m / Z 110 m (aprox.)                                                                                  |
+| **Link público**                      | https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462                                                       |
+| **Sistema NFT asociado**              | Oblokos (OBLK) — ERC-721 en Polygon                                                                                  |
+| **Contrato (Polygon)**                | 0x252f9390feb63aeb00042dd5c4ff84af33f42b85                                                                           |
+| **Supply / holders (snapshot)**       | 1,588 tokens / 5 holders                                                                                             |
+| **Infra permanente (Arweave Root 1)** | PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg                                                                          |
+| **Index público (Arweave)**           | https://arweave.net/PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg/                                                     |
+| **Créditos y licencias**              | Inventario completo + créditos listos para auditoría (CC-BY + propietario)                                           |
+| **Nota site-specific**                | La experiencia 3D depende de Spatial; la trazabilidad NFT y la documentación pueden preservarse fuera de plataforma. |
 
 ---
 
@@ -75,13 +77,14 @@ Los errores de sistema no operan como decoración: son artefactos conceptuales. 
 
 En motores de render en tiempo real, ciertas fallas aparecen por el ordenamiento de profundidades y transparencias. En Teleport Lab estos fenómenos se usan como mecánica escultórica:
 
-- **a)** conflicto de profundidad (**z-fighting**) para vibración energética  
-- **b)** orden imperfecto de transparencias para revelación fragmentaria  
-- **c)** **flicker** dinámico para campo eléctrico perceptual  
+- **a)** conflicto de profundidad (**z-fighting**) para vibración energética
+- **b)** orden imperfecto de transparencias para revelación fragmentaria
+- **c)** **flicker** dinámico para campo eléctrico perceptual
 
 ---
 
-## Bienvenidos al Holodeck  
+## Bienvenidos al Holodeck
+
 **Instalación de entrada — capa de sistema**
 
 “Bienvenidos al Holodeck” recibe al visitante en el punto exacto de materialización. El usuario no accede caminando: aparece sobre un dispositivo circular que funciona como portal técnico y declara, desde el primer segundo, que Teleport Lab es un sistema y no un “lobby” neutro.
@@ -94,7 +97,8 @@ Desde este umbral se anticipa el recorrido. La arquitectura conduce hacia el ala
 
 ---
 
-## Portal Río Grande  
+## Portal Río Grande
+
 **Instalación de convergencia y tránsito — capa de convergencia**
 
 Portal Río Grande concentra toda su fuerza en un punto único: un centro gravitatorio que sugiere cruce antes que “decoración”. La pieza se presenta en el entorno Agora (Spatial) —una galería de iluminación neutra y lenguaje institucional— para enfatizar el contraste entre control museístico y fenómeno inestable. El área está identificada con una etiqueta roja “Rio Grande Portal”.
@@ -106,13 +110,14 @@ El núcleo no “contiene” NFTs: está hecho de NFTs. Láminas translúcidas t
 Río Grande también opera como infraestructura de navegación: integra un enlace de teletransporte dentro de Spatial, ejecutando el tránsito (no solo evocándolo). Como registro portable, la instalación incluye una imagen‑ancla con acceso a documentación externa y visor dedicado a la escultura.
 
 **Documentación externa (visor de la escultura):**  
-https://oblokos.github.io/teleport-lab/sculptures/?sculpture=RIO_GRANDE_PORTAL  
+https://oblokos.github.io/teleport-lab/sculptures/?sculpture=RIO_GRANDE_PORTAL
 
 **Keywords:** convergencia, centro gravitatorio, vitrina/archivo, NFTs como materia, glitch perceptual, tránsito
 
 ---
 
-## Portal Orinoco  
+## Portal Orinoco
+
 **Instalación ecosistémica activa — capa ecológica + capa NFT**
 
 Portal Orinoco es un sistema ecosistémico dentro de Teleport Lab, presentado como fenómeno activo y ensamblaje escultórico por capas. Su montaje ocupa una zona de exposición del template Agora (Spatial): arquitectura de galería con iluminación neutra y paredes preparadas para “colgar” obras. En ese contexto institucional, el portal irrumpe como un evento que afecta el edificio.
@@ -128,13 +133,14 @@ En paralelo al fenómeno inmersivo, Orinoco expone su capa fragmentaria: en una 
 La instalación incorpora además una imagen‑ancla que enlaza a un visor externo para ver la escultura del portal de forma aislada, como documentación portable del ensamblaje.
 
 **Documentación externa (visor de la escultura):**  
-https://oblokos.github.io/teleport-lab/sculptures/?sculpture=ORINOCO_PORTAL  
+https://oblokos.github.io/teleport-lab/sculptures/?sculpture=ORINOCO_PORTAL
 
 **Keywords:** biosfera, jardín alienígena, riesgo institucional, ladrillos en tránsito, NFTs como estructura, glitch constructivo
 
 ---
 
-## Biome Orinoco  
+## Biome Orinoco
+
 **Instalación ecosistémica contenida — capa científica**
 
 Biome Orinoco es un ecosistema encapsulado ubicado en la transición entre la Galería y el Auditorio. No funciona como jardín decorativo: se presenta como espécimen estabilizado, una pausa “científica” dentro del laboratorio.
@@ -149,7 +155,8 @@ Los modelos vegetales se mantienen sin alteración estructural para preservar au
 
 ---
 
-## Portal Sena  
+## Portal Sena
+
 **Instalación de deriva eléctrica y tránsito biológico — capa de tránsito**
 
 Portal Sena es el único portal ubicado en el exterior del recorrido principal: expuesto, sin contención clínica ni iluminación neutra, funciona como transición entre Río Grande y el Lounge. La condición exterior no es escenografía: es parte del comportamiento del nodo. El entorno sostiene un ecosistema de medusas alienígenas gigantes, enfatizando presencia biológica y escala estética.
@@ -164,13 +171,14 @@ La pieza se organiza como sistema de doble vórtice conectado por un rayo, con u
 En Sena el glitch funciona como descarga eléctrica perceptual: vibración de bordes, interferencia y lecturas incompletas por competencia entre capas y transparencias. La pieza sostiene una doble lectura: fenómeno + archivo. Cerca del portal hay muestras de los NFTs utilizados y una imagen‑ancla que enlaza a la documentación externa con visor dedicado.
 
 **Documentación externa (visor de la escultura):**  
-https://oblokos.github.io/teleport-lab/sculptures/?sculpture=SENA_PORTAL  
+https://oblokos.github.io/teleport-lab/sculptures/?sculpture=SENA_PORTAL
 
 **Keywords:** exterior, doble vórtice, rayo tokenizado, medusa en tránsito, núcleo gravitatorio, glitch eléctrico
 
 ---
 
-## Ventana de Ocaso  
+## Ventana de Ocaso
+
 **Instalación de transición lumínica — umbral atmosférico**
 
 Ventana de Ocaso introduce un cambio de registro dentro del laboratorio: no es un portal técnico, sino un umbral perceptual. La instalación propone la sensación de ingresar físicamente a una puesta de sol abstracta: no se observa el atardecer, se lo habita.
@@ -203,9 +211,9 @@ Además del space en Spatial (obra site‑specific), Teleport Lab cuenta con doc
   https://github.com/Oblokos/teleport-lab  
   La documentación se hospeda como GitHub Pages del repositorio.
 
-- **Visores por escultura (portal aislado + grilla):**  
-  - https://oblokos.github.io/teleport-lab/sculptures/?sculpture=SENA_PORTAL 
-  - https://oblokos.github.io/teleport-lab/sculptures/?sculpture=RIO_GRANDE_PORTAL 
+- **Visores por escultura (portal aislado + grilla):**
+  - https://oblokos.github.io/teleport-lab/sculptures/?sculpture=SENA_PORTAL
+  - https://oblokos.github.io/teleport-lab/sculptures/?sculpture=RIO_GRANDE_PORTAL
   - https://oblokos.github.io/teleport-lab/sculptures/?sculpture=ORINOCO_PORTAL
 
   Cada página permite explorar únicamente la escultura seleccionada en un visor 3D, y consultar la **grilla informativa de los NFTs** utilizados en esa pieza.
@@ -233,25 +241,26 @@ Listado de token IDs y links a marketplace: [Teleport Lab NFT List](nfts_telepor
 
 ## Propiedad, transferencia y modelos de adquisición
 
-**Modelo recomendado:** *Complete Sculptural Transfer Model.*
+**Modelo recomendado:** _Complete Sculptural Transfer Model._
 
-El paquete incluye:  
-1) despliegue operativo de Teleport Lab en Spatial mediante template/overlay,  
-2) transferencia de los NFTs asociados como base estructural y prueba de propiedad on-chain, y  
-3) documentación conceptual, técnica y de créditos.
+El paquete incluye:
+
+1. despliegue operativo de Teleport Lab en Spatial mediante template/overlay,
+2. transferencia de los NFTs asociados como base estructural y prueba de propiedad on-chain, y
+3. documentación conceptual, técnica y de créditos.
 
 ### Protocolo operativo de despliegue
 
-- Reunión en el space del comprador (Spatial).  
-- El comprador otorga permisos temporales de edición (“Can Edit”) para el montaje.  
-- El artista despliega el template maestro (overlay) y verifica: layout, assets, media, textos.  
-- Transferencia de la constelación de NFTs al wallet del comprador (Polygon).  
+- Reunión en el space del comprador (Spatial).
+- El comprador otorga permisos temporales de edición (“Can Edit”) para el montaje.
+- El artista despliega el template maestro (overlay) y verifica: layout, assets, media, textos.
+- Transferencia de la constelación de NFTs al wallet del comprador (Polygon).
 - Retorno de permisos a modo restrictivo (“View Only”) para operación pública.
 
 ### Opciones de transferencia NFT (resumen)
 
-- **Opción A (default):** transferencia directa al wallet personal del comprador.  
-- **Opción B (institucional):** wallet dedicada a la obra (separa custodia patrimonial).  
+- **Opción A (default):** transferencia directa al wallet personal del comprador.
+- **Opción B (institucional):** wallet dedicada a la obra (separa custodia patrimonial).
 - **Opción C (excepcional):** escrow/custodia temporal para ventas de alto valor y validación por hitos.
 
 ### Cláusula de mantenimiento (sin asesoría legal)
@@ -274,20 +283,17 @@ Teleport Lab integra infraestructura de Spatial (template Agora) y assets 3D lic
 
 Los siguientes identificadores son suficientes para verificar y reconstruir el núcleo del sistema NFT Oblokos sin depender de plataformas de exhibición:
 
-- **Contrato (Polygon, ERC-721):** 0x252f9390feb63aeb00042dd5c4ff84af33f42b85  
-- **Root 1 (Arweave, infra NFT):** PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg  
+- **Contrato (Polygon, ERC-721):** 0x252f9390feb63aeb00042dd5c4ff84af33f42b85
+- **Root 1 (Arweave, infra NFT):** PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg
 - **Index público:** https://arweave.net/PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg/
 
 **Ejemplo de rutas en Arweave:**
+
 - Viewer: https://arweave.net/PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg/?art=ERROR_INVALID_FUNCTION
 - Metadata: https://arweave.net/PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg/metadata/ERROR_INVALID_FUNCTION.json
 - Render: https://arweave.net/PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg/art/ERROR_INVALID_FUNCTION.png
 
 ### Contacto y presencia
 
-- Dominio Web3: **oblokos.nft** (Unstoppable Domains)  
+- Dominio Web3: **oblokos.nft** (Unstoppable Domains)
 - Correo de contacto: **oblokos.web@gmail.com**
-
-
-
-

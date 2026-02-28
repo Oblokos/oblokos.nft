@@ -45,16 +45,16 @@ Referencia principal: [docs/closing_statement_es.md](./docs/closing_statement_es
 
 ## Mapa de documentos
 
-| Archivo | Para qué sirve |
-|---|---|
-| [manifesto_es.md](./manifesto_es.md) | Declaración de identidad artística y principios del sistema Oblokos. |
-| [docs/whitepaper_v2_es.md](./docs/whitepaper_v2_es.md) | Especificación conceptual y técnica: fragmentos, capas, propiedad, infraestructura Polygon + Arweave y gobernanza del ciclo cerrado. |
-| [docs/teleport_lab_dossier_es.md](./docs/teleport_lab_dossier_es.md) | Dossier curatorial/técnico de Teleport Lab: ficha, narrativa de portales, operación, preservación y modelo de transferencia. |
-| [docs/nfts_teleport_lab.md](./docs/nfts_teleport_lab.md) | Inventario de NFTs usados en Teleport Lab con token IDs, enlaces de Arweave y marketplace (archivo único en inglés). |
-| [docs/glitch_system_es.md](./docs/glitch_system_es.md) | Marco de glitch como mecánica escultórica transversal (z-fighting, transparencia, flicker) y criterio de coherencia del sistema. |
-| [docs/credits_teleport_lab.md](./docs/credits_teleport_lab.md) | Créditos completos de assets y licencias (CC-BY y componentes propietarios). |
-| [docs/acquisition_document_es.md](./docs/acquisition_document_es.md) | Plantilla de adquisición/transferencia para instalaciones: NFTs incluidos, derechos, exclusividad y cláusulas operativas. |
-| [docs/closing_statement_es.md](./docs/closing_statement_es.md) | Declaración oficial de cierre del ciclo y reglas post-descentralización. |
+| Archivo                                                              | Para qué sirve                                                                                                                       |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| [manifesto_es.md](./manifesto_es.md)                                 | Declaración de identidad artística y principios del sistema Oblokos.                                                                 |
+| [docs/whitepaper_v2_es.md](./docs/whitepaper_v2_es.md)               | Especificación conceptual y técnica: fragmentos, capas, propiedad, infraestructura Polygon + Arweave y gobernanza del ciclo cerrado. |
+| [docs/teleport_lab_dossier_es.md](./docs/teleport_lab_dossier_es.md) | Dossier curatorial/técnico de Teleport Lab: ficha, narrativa de portales, operación, preservación y modelo de transferencia.         |
+| [docs/nfts_teleport_lab.md](./docs/nfts_teleport_lab.md)             | Inventario de NFTs usados en Teleport Lab con token IDs, enlaces de Arweave y marketplace (archivo único en inglés).                 |
+| [docs/glitch_system_es.md](./docs/glitch_system_es.md)               | Marco de glitch como mecánica escultórica transversal (z-fighting, transparencia, flicker) y criterio de coherencia del sistema.     |
+| [docs/credits_teleport_lab.md](./docs/credits_teleport_lab.md)       | Créditos completos de assets y licencias (CC-BY y componentes propietarios).                                                         |
+| [docs/acquisition_document_es.md](./docs/acquisition_document_es.md) | Plantilla de adquisición/transferencia para instalaciones: NFTs incluidos, derechos, exclusividad y cláusulas operativas.            |
+| [docs/closing_statement_es.md](./docs/closing_statement_es.md)       | Declaración oficial de cierre del ciclo y reglas post-descentralización.                                                             |
 
 ## Ruta recomendada de lectura
 

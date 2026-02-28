@@ -1,5 +1,7 @@
 ﻿# TELEPORT LAB
+
 ## Site-specific digital sculpture in metaverse (Spatial.io)
+
 **Professional dossier (EN) - Updated edition**
 
 **Artist:** Oblokos | **Spatial creator:** Luiggi (@oblokos)
@@ -13,25 +15,25 @@ Work inside the **Oblokos (OBLK)** system.
 
 ## Technical sheet
 
-| Field | Value |
-|---|---|
-| **Title** | Teleport Lab |
-| **Artist** | @oblokos |
-| **Spatial creator** | Luiggi (@oblokos) |
-| **Year / release date** | November 11, 2022 |
-| **Type** | Immersive digital sculpture / site-specific virtual installation |
-| **Main platform** | Spatial.io |
-| **Accessibility** | Web / Mobile / VR (based on Spatial availability) |
-| **Base architecture** | Spatial Agora template |
-| **Environment dimensions (Agora)** | X 165 m / Y 20 m / Z 110 m (approx.) |
-| **Public link** | https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462 |
-| **Associated NFT system** | Oblokos (OBLK) - ERC-721 on Polygon |
-| **Contract (Polygon)** | 0x252f9390feb63aeb00042dd5c4ff84af33f42b85 |
-| **Supply / holders (snapshot)** | 1,588 tokens / 5 holders |
-| **Permanent infra (Arweave Root 1)** | PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg |
-| **Public index (Arweave)** | https://arweave.net/PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg/ |
-| **Credits and licenses** | Full auditable inventory (CC-BY + proprietary) |
-| **Site-specific note** | The 3D experience depends on Spatial; NFT traceability and documentation can be preserved outside platform. |
+| Field                                | Value                                                                                                       |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| **Title**                            | Teleport Lab                                                                                                |
+| **Artist**                           | @oblokos                                                                                                    |
+| **Spatial creator**                  | Luiggi (@oblokos)                                                                                           |
+| **Year / release date**              | November 11, 2022                                                                                           |
+| **Type**                             | Immersive digital sculpture / site-specific virtual installation                                            |
+| **Main platform**                    | Spatial.io                                                                                                  |
+| **Accessibility**                    | Web / Mobile / VR (based on Spatial availability)                                                           |
+| **Base architecture**                | Spatial Agora template                                                                                      |
+| **Environment dimensions (Agora)**   | X 165 m / Y 20 m / Z 110 m (approx.)                                                                        |
+| **Public link**                      | https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462                                              |
+| **Associated NFT system**            | Oblokos (OBLK) - ERC-721 on Polygon                                                                         |
+| **Contract (Polygon)**               | 0x252f9390feb63aeb00042dd5c4ff84af33f42b85                                                                  |
+| **Supply / holders (snapshot)**      | 1,588 tokens / 5 holders                                                                                    |
+| **Permanent infra (Arweave Root 1)** | PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg                                                                 |
+| **Public index (Arweave)**           | https://arweave.net/PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg/                                            |
+| **Credits and licenses**             | Full auditable inventory (CC-BY + proprietary)                                                              |
+| **Site-specific note**               | The 3D experience depends on Spatial; NFT traceability and documentation can be preserved outside platform. |
 
 ---
 
@@ -79,30 +81,36 @@ Real-time rendering artifacts are used as sculptural mechanics:
 ## Installation modules
 
 ### Welcome to the Holodeck
+
 Entry threshold and system declaration layer.
 
 ### Rio Grande Portal
+
 Convergence and transit installation, including NFT fragments as structural center.
 
 External sculpture viewer:
 https://oblokos.github.io/teleport-lab/sculptures/?sculpture=RIO_GRANDE_PORTAL
 
 ### Orinoco Portal
+
 Active ecosystem portal with biological risk narrative and NFT archive wall.
 
 External sculpture viewer:
 https://oblokos.github.io/teleport-lab/sculptures/?sculpture=ORINOCO_PORTAL
 
 ### Biome Orinoco
+
 Contained ecosystem specimen between gallery and auditorium.
 
 ### Sena Portal
+
 Exterior electric-drift portal with dual vortex and tokenized beam.
 
 External sculpture viewer:
 https://oblokos.github.io/teleport-lab/sculptures/?sculpture=SENA_PORTAL
 
 ### Sunset Window
+
 Atmospheric transition module and perceptual pause in the route.
 
 ---
@@ -144,6 +152,7 @@ Token IDs and marketplace links: [Teleport Lab NFT List](nfts_teleport_lab.md)
 Recommended model: **Complete Sculptural Transfer Model**.
 
 Includes:
+
 1. operational Teleport Lab deployment in Spatial,
 2. transfer of associated NFTs,
 3. conceptual, technical, and credits documentation.

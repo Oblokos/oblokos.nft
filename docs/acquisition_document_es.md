@@ -18,10 +18,10 @@ Este documento formaliza (i) la venta de una instalación digital específica de
 
 **Precio de compra y pago**
 
-* **Precio de compra:** [AMOUNT] [CURRENCY]
-* **Método de pago:** [BANK / CRYPTO / OTHER]
-* **Fecha de pago:** [DATE]
-* **Referencia de transacción (opcional):** [TX_HASH / INVOICE_ID]
+- **Precio de compra:** [AMOUNT] [CURRENCY]
+- **Método de pago:** [BANK / CRYPTO / OTHER]
+- **Fecha de pago:** [DATE]
+- **Referencia de transacción (opcional):** [TX_HASH / INVOICE_ID]
 
 **Sin asesoría legal**  
 Este documento se proporciona como registro de adquisición y acuerdo entre partes. Cada parte puede consultar asesoría legal independiente si lo considera necesario.
@@ -46,24 +46,24 @@ El sistema Oblokos está anclado por identificadores canónicos on-chain y de al
 **2.6 Descripción de la instalación (configuración canónica)**  
 La Instalación se define como una configuración escultórica específica compuesta por:
 
-* Un arreglo definido de fragmentos Oblokos tokenizados (los NFTs listados en la Sección 2.7) desplegados como componentes estructurales/escultóricos.
-* Una composición espacial definida (layout, transforms, ubicaciones, decisiones de iluminación, capas y restricciones de interacción cuando aplique).
-* El paquete documental asociado (créditos, notas de configuración y cualquier medio incluido listado abajo).
+- Un arreglo definido de fragmentos Oblokos tokenizados (los NFTs listados en la Sección 2.7) desplegados como componentes estructurales/escultóricos.
+- Una composición espacial definida (layout, transforms, ubicaciones, decisiones de iluminación, capas y restricciones de interacción cuando aplique).
+- El paquete documental asociado (créditos, notas de configuración y cualquier medio incluido listado abajo).
 
 **2.7 Token IDs incluidos (campo editable)**  
 La Instalación incluye los siguientes token IDs ERC-721 del contrato Oblokos en Polygon:
 
-* **Contrato:** 0x252f9390feb63aeb00042dd5c4ff84af33f42b85
-* **Token IDs (Anexo A):** Ver [Inventario NFT de Teleport Lab](./nfts_teleport_lab.md) (columna tokenID; inventario completo de Teleport Lab)
-* **Token URI / fuente de metadatos (referencia de infraestructura canónica):** Root 1 en Arweave (ver Anexo).
+- **Contrato:** 0x252f9390feb63aeb00042dd5c4ff84af33f42b85
+- **Token IDs (Anexo A):** Ver [Inventario NFT de Teleport Lab](./nfts_teleport_lab.md) (columna tokenID; inventario completo de Teleport Lab)
+- **Token URI / fuente de metadatos (referencia de infraestructura canónica):** Root 1 en Arweave (ver Anexo).
 
 **2.8 Entregables incluidos (si aplica)**  
 Salvo que se especifique lo contrario, el Artista entrega al Comprador:
 
-* Una copia del registro de configuración de la instalación (posiciones/rotaciones/escalas y notas de ensamblaje), en formato digital estándar.
-* Una copia del registro de créditos y licencias de assets de terceros usados en la Instalación.
-* Cualquier medio explícitamente listado aquí: Visor completo (assets + transforms): https://oblokos.github.io/teleport-lab/; visores por escultura: https://oblokos.github.io/teleport-lab/sculptures/?sculpture=SENA_PORTAL, https://oblokos.github.io/teleport-lab/sculptures/?sculpture=RIO_GRANDE_PORTAL, https://oblokos.github.io/teleport-lab/sculptures/?sculpture=ORINOCO_PORTAL
-* Cualquier documentación explícitamente listada aquí: docs/teleport_lab_dossier_es.md; docs/nfts_teleport_lab.md; docs/credits_teleport_lab_es.md; docs/closing_statement_es.md
+- Una copia del registro de configuración de la instalación (posiciones/rotaciones/escalas y notas de ensamblaje), en formato digital estándar.
+- Una copia del registro de créditos y licencias de assets de terceros usados en la Instalación.
+- Cualquier medio explícitamente listado aquí: Visor completo (assets + transforms): https://oblokos.github.io/teleport-lab/; visores por escultura: https://oblokos.github.io/teleport-lab/sculptures/?sculpture=SENA_PORTAL, https://oblokos.github.io/teleport-lab/sculptures/?sculpture=RIO_GRANDE_PORTAL, https://oblokos.github.io/teleport-lab/sculptures/?sculpture=ORINOCO_PORTAL
+- Cualquier documentación explícitamente listada aquí: docs/teleport_lab_dossier_es.md; docs/nfts_teleport_lab.md; docs/credits_teleport_lab_es.md; docs/closing_statement_es.md
 
 ---
 
@@ -75,13 +75,13 @@ Una vez confirmado el pago bajo este acuerdo, el Artista transferirá al Comprad
 **3.2 Finalización de transferencia y prueba**  
 La transferencia de NFTs se considera completada cuando:
 
-* Cada NFT Transferido quede registrado on-chain como propiedad de la wallet del Comprador especificada arriba, y
-* Se entreguen al Comprador los hashes de transacción de dichas transferencias (Anexo B).
+- Cada NFT Transferido quede registrado on-chain como propiedad de la wallet del Comprador especificada arriba, y
+- Se entreguen al Comprador los hashes de transacción de dichas transferencias (Anexo B).
 
 **3.3 Costos y ejecución**
 
-* Las fees de red y costos operativos para transferir NFTs son: [PAID_BY_ARTIST / PAID_BY_BUYER / SPLIT].
-* Si se requieren múltiples transacciones, la finalización puede ocurrir en varias transferencias, siempre que todos los NFTs Transferidos sean entregados.
+- Las fees de red y costos operativos para transferir NFTs son: [PAID_BY_ARTIST / PAID_BY_BUYER / SPLIT].
+- Si se requieren múltiples transacciones, la finalización puede ocurrir en varias transferencias, siempre que todos los NFTs Transferidos sean entregados.
 
 **3.4 Sin NFTs adicionales**  
 Solo se incluyen los token IDs explícitamente listados en la Sección 2.7. Cualquier NFT de Oblokos no listado permanece como propiedad del Artista.
@@ -95,20 +95,20 @@ Sujeto a los términos de este documento, el Artista otorga al Comprador un **de
 
 a) **Reproducir y exhibir**
 
-* Exhibir pública o privadamente la Instalación en plataformas virtuales, espacios físicos, entornos híbridos, proyecciones y documentación.
+- Exhibir pública o privadamente la Instalación en plataformas virtuales, espacios físicos, entornos híbridos, proyecciones y documentación.
 
 b) **Modificar y crear derivados**
 
-* Modificar la Instalación (layout, composición, interacción, media, entorno o presentación) y crear versiones derivadas, variaciones y adaptaciones.
+- Modificar la Instalación (layout, composición, interacción, media, entorno o presentación) y crear versiones derivadas, variaciones y adaptaciones.
 
 c) **Copiar, respaldar y archivar**
 
-* Crear copias y respaldos ilimitados de todos los archivos, registros de configuración, medios y documentación asociados a la Instalación.
+- Crear copias y respaldos ilimitados de todos los archivos, registros de configuración, medios y documentación asociados a la Instalación.
 
 d) **Contenido audiovisual y comercial**
 
-* Capturar imágenes, video, transmisiones en vivo, materiales promocionales, trailers, contenido educativo y otras obras audiovisuales derivadas de la Instalación.
-* Explotar comercialmente dicho contenido, incluyendo marketing, publicación y monetización, sin aprobaciones adicionales.
+- Capturar imágenes, video, transmisiones en vivo, materiales promocionales, trailers, contenido educativo y otras obras audiovisuales derivadas de la Instalación.
+- Explotar comercialmente dicho contenido, incluyendo marketing, publicación y monetización, sin aprobaciones adicionales.
 
 **4.2 Alcance e independencia**  
 Estos derechos aplican a la Instalación como configuración y experiencia. El Comprador puede migrar o re-desplegar la Instalación entre plataformas a su criterio.
@@ -119,10 +119,10 @@ Salvo que se incluya explícitamente aquí: [ROYALTY_TERMS_IF_ANY], no se adeuda
 **4.4 Derechos retenidos por el Artista**  
 El Artista conserva:
 
-* **Derechos morales de autoría** y de atribución según la Sección 8.
-* La **identidad Oblokos** como sistema artístico y nombre.
-* El derecho a usar y ensamblar NFTs de Oblokos **no transferidos** en otras instalaciones y contextos.
-* La posibilidad de crear **nuevos contratos y ciclos futuros** bajo términos separados, sin afectar esta Instalación adquirida.
+- **Derechos morales de autoría** y de atribución según la Sección 8.
+- La **identidad Oblokos** como sistema artístico y nombre.
+- El derecho a usar y ensamblar NFTs de Oblokos **no transferidos** en otras instalaciones y contextos.
+- La posibilidad de crear **nuevos contratos y ciclos futuros** bajo términos separados, sin afectar esta Instalación adquirida.
 
 ---
 
@@ -134,19 +134,19 @@ Las partes acuerdan que esta venta otorga al Comprador la **única edición auto
 **5.2 Restricción al Artista**  
 El Artista no podrá:
 
-* Reinstalar, revender o reemitir la misma configuración de Instalación (según Sección 2) a ninguna otra parte, incluso de forma gratuita.
-* Autorizar a terceros a presentar la Instalación como edición oficial de la configuración vendida.
+- Reinstalar, revender o reemitir la misma configuración de Instalación (según Sección 2) a ninguna otra parte, incluso de forma gratuita.
+- Autorizar a terceros a presentar la Instalación como edición oficial de la configuración vendida.
 
 **5.3 Copias técnicas por terceros**  
 Las partes reconocen que entornos digitales pueden permitir copias o reconstrucciones no autorizadas por terceros. Dichas copias:
 
-* No constituyen ediciones legítimas, y
-* No disminuyen el estatus del Comprador como titular de la única edición autorizada bajo este acuerdo.
+- No constituyen ediciones legítimas, y
+- No disminuyen el estatus del Comprador como titular de la única edición autorizada bajo este acuerdo.
 
 **5.4 Usos permitidos al Artista**  
 El Artista podrá:
 
-* Referenciar la Instalación vendida para portfolio y documentación histórica, incluyendo capturas, extractos y descripción documental, siempre que no habilite una reinstalación completa como edición sustituta.
+- Referenciar la Instalación vendida para portfolio y documentación histórica, incluyendo capturas, extractos y descripción documental, siempre que no habilite una reinstalación completa como edición sustituta.
 
 ---
 
@@ -155,15 +155,15 @@ El Artista podrá:
 **6.1 Reconocimiento de riesgo de plataforma**  
 Si la Instalación depende de una plataforma o servicio de terceros (por ejemplo, Spatial), el Comprador reconoce y acepta que:
 
-* La disponibilidad de la plataforma, el comportamiento de render, funcionalidades, políticas o performance pueden cambiar en el tiempo.
-* El operador de la plataforma no es parte de este acuerdo y no otorga garantías al Comprador a través de este documento.
+- La disponibilidad de la plataforma, el comportamiento de render, funcionalidades, políticas o performance pueden cambiar en el tiempo.
+- El operador de la plataforma no es parte de este acuerdo y no otorga garantías al Comprador a través de este documento.
 
 **6.2 Responsabilidad del Comprador sobre despliegue, mantenimiento y respaldos**  
 El Comprador es responsable de:
 
-* La instalación o el despliegue técnico en la(s) plataforma(s) elegida(s),
-* El mantenimiento continuo, respaldos y medidas de preservación,
-* Cualquier fee de plataforma, hosting, cuentas, permisos o controles de acceso requeridos.
+- La instalación o el despliegue técnico en la(s) plataforma(s) elegida(s),
+- El mantenimiento continuo, respaldos y medidas de preservación,
+- Cualquier fee de plataforma, hosting, cuentas, permisos o controles de acceso requeridos.
 
 **6.3 Soporte del Artista (opcional, si se acuerda)**  
 Obligaciones iniciales de soporte: LIMITED SUPPORT: la obra se entrega verificada en funcionamiento al momento del despliegue; restauración o reinstalación posterior solo por comisión y disponibilidad, bajo acuerdo separado.  
@@ -195,8 +195,8 @@ El Artista conserva la autoría moral de la Instalación y de la identidad del s
 **8.2 Atribución**  
 En contextos institucionales, curatoriales o públicos, el Comprador acuerda acreditar al Artista como:
 
-* **Oblokos**
-* [ARTIST_LEGAL_NAME] (opcional, si el Artista requiere atribución con nombre legal)
+- **Oblokos**
+- [ARTIST_LEGAL_NAME] (opcional, si el Artista requiere atribución con nombre legal)
 
 **8.3 No falseamiento de autoría**  
 El Comprador no presentará intencionalmente al Artista como autor de modificaciones realizadas únicamente por el Comprador o terceros. El Comprador podrá presentar derivados como "basado en" o "derivado de" la Instalación adquirida.
@@ -224,20 +224,20 @@ Al firmar, las partes confirman que han leído y aceptado los términos de este 
 **Vendedor / Artista**  
 Nombre: [ARTIST_LEGAL_NAME]  
 Identidad artística: Oblokos  
-Firma: ___________________________  
+Firma: ************\_\_\_************  
 Fecha: [DATE]  
 Ubicación: [CITY, COUNTRY]
 
 **Comprador**  
 Nombre: [BUYER_LEGAL_NAME]  
 Organización (si aplica): [BUYER_ORG]  
-Firma: ___________________________  
+Firma: ************\_\_\_************  
 Fecha: [DATE]  
 Ubicación: [CITY, COUNTRY]
 
 **Testigo / Representante (opcional)**  
 Nombre: [WITNESS_NAME]  
-Firma: ___________________________  
+Firma: ************\_\_\_************  
 Fecha: [DATE]
 
 ---
@@ -246,14 +246,14 @@ Fecha: [DATE]
 
 **A.1 Ancla on-chain (Contrato Polygon / ERC-721)**
 
-* **Dirección del contrato:** 0x252f9390feb63aeb00042dd5c4ff84af33f42b85
-* **Estándar de token:** ERC-721
-* **Red:** Polygon
+- **Dirección del contrato:** 0x252f9390feb63aeb00042dd5c4ff84af33f42b85
+- **Estándar de token:** ERC-721
+- **Red:** Polygon
 
 **A.2 Ancla de infraestructura permanente (Arweave / Root 1)**
 
-* **Root 1 (Arweave):** PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg
-* **Rol:** Almacenamiento permanente de la infraestructura NFT de Oblokos (metadatos, arte, visor), independiente de plataformas de exhibición.
+- **Root 1 (Arweave):** PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg
+- **Rol:** Almacenamiento permanente de la infraestructura NFT de Oblokos (metadatos, arte, visor), independiente de plataformas de exhibición.
 
 ---
 
@@ -263,10 +263,10 @@ Ver docs/nfts_teleport_lab.md (columna tokenID; inventario completo de Teleport 
 
 ### Anexo B - Hashes de transacción de transferencia (editable)
 
-* [TX_HASH_1]
-* [TX_HASH_2]
-* [TX_HASH_3]
-* ...
+- [TX_HASH_1]
+- [TX_HASH_2]
+- [TX_HASH_3]
+- ...
 
 ---
 
@@ -285,8 +285,7 @@ ID del documento: [DOC_ID]
 2. Comprador: [BUYER_LEGAL_NAME]  
    2.1 Wallet del Comprador (Polygon): [BUYER_WALLET_ADDRESS]
 
-**Resumen de compra**
-3. Precio de compra: [AMOUNT] [CURRENCY]  
+**Resumen de compra** 3. Precio de compra: [AMOUNT] [CURRENCY]  
 4. Método de pago: [BANK / CRYPTO / OTHER]  
 5. Fecha de pago: [DATE]  
 6. Referencia de transacción (opcional): [TX_HASH / INVOICE_ID]  
@@ -357,13 +356,13 @@ ID del documento: [DOC_ID]
 
 **10. Firmas**  
 Vendedor / Artista: [ARTIST_LEGAL_NAME] (Oblokos)  
-Firma: __________________  Fecha: [DATE]  Ubicación: [CITY, COUNTRY]
+Firma: ********\_\_******** Fecha: [DATE] Ubicación: [CITY, COUNTRY]
 
 Comprador: [BUYER_LEGAL_NAME]  
-Firma: __________________  Fecha: [DATE]  Ubicación: [CITY, COUNTRY]
+Firma: ********\_\_******** Fecha: [DATE] Ubicación: [CITY, COUNTRY]
 
 Testigo (opcional): [WITNESS_NAME]  
-Firma: __________________  Fecha: [DATE]
+Firma: ********\_\_******** Fecha: [DATE]
 
 **11. Anexo: Anclas canónicas**  
 11.1 Contrato Polygon (ERC-721): 0x252f9390feb63aeb00042dd5c4ff84af33f42b85  
