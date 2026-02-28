@@ -18,7 +18,7 @@ Obra dentro del sistema **Oblokos (OBLK)**.
 | Campo                                 | Valor                                                                                                                |
 | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | **Título**                            | Teleport Lab                                                                                                         |
-| **Artista**                           | @oblokos                                                                                                             |
+| **Artista**                           | Oblokos                                                                                                             |
 | **Creador en Spatial**                | Luiggi (@oblokos)                                                                                                    |
 | **Año / release date**                | 11 noviembre 2022                                                                                                    |
 | **Tipo de obra**                      | Escultura digital inmersiva / instalación virtual site-specific                                                      |
