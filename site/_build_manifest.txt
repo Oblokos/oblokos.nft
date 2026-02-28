@@ -1,0 +1,7 @@
+Generated files:
+README.md -> site/index.html
+manifesto.md -> site/manifesto.html
+docs/whitepaper_v2.md -> site/whitepaper.html
+docs/closing_statement.md -> site/closing-statement.html
+docs/teleport_lab_dossier.md -> site/teleport-lab.html
+docs/credits_teleport_lab.md -> site/credits.html
