@@ -309,7 +309,7 @@ Document ID: [DOC_ID]
 2.6.3 Documentation package and credits record
 2.7 Token IDs Included (Schedule A)
 2.7.1 Contract: 0x252f9390feb63aeb00042dd5c4ff84af33f42b85
-2.7.2 Token IDs: Ver [Teleport Lab NFT Inventory](./nfts_teleport_lab.md) (columna tokenID; inventario completo de Teleport Lab)
+2.7.2 Token IDs: See [Teleport Lab NFT Inventory](./nfts_teleport_lab.md)
 2.8 Included Deliverables (if any)
 2.8.1 Configuration record: Web 3D viewer (assets + transforms) / https://oblokos.github.io/teleport-lab/ (fuente: https://github.com/Oblokos/teleport-lab)
 2.8.2 Credits and licensing record: docs/credits_teleport_lab.md
@@ -399,11 +399,7 @@ Schedule B - Transfer Transaction Hashes: [PASTE LIST]
 [PLATFORM_NAME]: Spatial.io
 [PUBLIC_ACCESS_URL]: https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462
 
-[TOKEN_ID_LIST]:
-  - 316
-  - 318
-  - 323
-  - Ver lista completa en docs/nfts_teleport_lab.md (columna tokenID)
+[TOKEN_ID_LIST]: See Teleport Lab NFT Inventory docs/nfts_teleport_lab.md
 
 [DELIVERABLES_CONFIG_RECORD_FORMAT]: Web 3D viewer (assets + transforms)
 [DELIVERABLES_CONFIG_RECORD_LOCATION]: https://oblokos.github.io/teleport-lab/ (fuente: https://github.com/Oblokos/teleport-lab)
