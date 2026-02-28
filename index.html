@@ -1,611 +1,272 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>OBLOKOS Archive</title>
-    <style>
-      :root {
-        color-scheme: dark;
-        --bg: #060606;
-        --panel: #0e0e0e;
-        --text: #f3f3f3;
-        --muted: #9a9a9a;
-        --line: #2a2a2a;
-        --accent: #d7d7d7;
-        --radius: 12px;
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-
-      body {
-        margin: 0;
-        font-family:
-          system-ui,
-          -apple-system,
-          Segoe UI,
-          Roboto,
-          sans-serif;
-        background: var(--bg);
-        color: var(--text);
-        line-height: 1.5;
-        text-rendering: optimizeLegibility;
-      }
-
-      a {
-        color: var(--accent);
-        text-decoration: none;
-      }
-
-      a:hover {
-        text-decoration: underline;
-      }
-
-      .wrap {
-        max-width: 900px;
-        margin: 0 auto;
-        padding: 32px 20px 60px;
-      }
-
-      section {
-        margin-top: 34px;
-        padding-top: 24px;
-        border-top: 1px solid var(--line);
-      }
-
-      h1,
-      h2,
-      h3,
-      p {
-        margin: 0;
-      }
-
-      h1 {
-        font-size: clamp(2rem, 7vw, 3.5rem);
-        letter-spacing: 0.04em;
-        font-weight: 600;
-        margin-top: 8px;
-      }
-
-      h2 {
-        font-size: 1.05rem;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        color: var(--muted);
-        font-weight: 600;
-        margin-bottom: 14px;
-      }
-
-      h3 {
-        font-size: 1rem;
-        font-weight: 600;
-      }
-
-      .sub {
-        margin-top: 8px;
-        color: var(--accent);
-      }
-
-      .domain {
-        margin-top: 10px;
-        color: var(--muted);
-        font-size: 0.95rem;
-      }
-
-      .state-lines {
-        list-style: none;
-        margin: 14px 0 0;
-        padding: 0;
-        color: var(--text);
-      }
-
-      .state-lines li + li {
-        margin-top: 4px;
-      }
-
-      .actions,
-      .inline-actions {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        margin-top: 18px;
-      }
-
-      .btn,
-      button {
-        appearance: none;
-        border: 1px solid var(--line);
-        background: #121212;
-        color: var(--text);
-        padding: 9px 12px;
-        border-radius: 10px;
-        cursor: pointer;
-        font: inherit;
-        font-size: 0.92rem;
-        text-decoration: none;
-      }
-
-      .btn:hover,
-      button:hover {
-        border-color: #4a4a4a;
-        text-decoration: none;
-      }
-
-      button[disabled] {
-        cursor: not-allowed;
-        opacity: 0.5;
-      }
-
-      .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-        gap: 12px;
-      }
-
-      .card {
-        border: 1px solid var(--line);
-        background: var(--panel);
-        border-radius: var(--radius);
-        padding: 14px;
-        min-height: 116px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        justify-content: space-between;
-      }
-
-      .mono {
-        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-        font-size: 0.85rem;
-        word-break: break-all;
-      }
-
-      .note,
-      .muted {
-        color: var(--muted);
-        font-size: 0.92rem;
-      }
-
-      details {
-        border: 1px solid var(--line);
-        border-radius: var(--radius);
-        background: var(--panel);
-        padding: 12px 14px;
-      }
-
-      details summary {
-        cursor: pointer;
-        font-weight: 600;
-        list-style: none;
-      }
-
-      details summary::-webkit-details-marker {
-        display: none;
-      }
-
-      details[open] summary {
-        margin-bottom: 10px;
-      }
-
-      .doc-list {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: grid;
-        gap: 10px;
-      }
-
-      .doc-item {
-        border: 1px solid var(--line);
-        border-radius: var(--radius);
-        padding: 12px;
-        background: var(--panel);
-        display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-        align-items: center;
-        justify-content: space-between;
-      }
-
-      .doc-head {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-      }
-
-      .pending {
-        color: #b6a37a;
-        font-size: 0.82rem;
-      }
-
-      .install-note {
-        margin-top: 6px;
-      }
-
-      .install-links {
-        margin-top: 10px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
-      }
-
-      .contact-line + .contact-line {
-        margin-top: 8px;
-      }
-
-      footer {
-        margin-top: 38px;
-        padding-top: 18px;
-        border-top: 1px solid var(--line);
-        color: var(--muted);
-        font-size: 0.9rem;
-      }
-
-      @media (max-width: 560px) {
-        .wrap {
-          padding: 24px 14px 44px;
-        }
-
-        .doc-item {
-          align-items: flex-start;
-        }
-      }
-    </style>
+    <title>OBLOKOS - Home</title>
+    <meta
+      name="description"
+      content="Static archive page for the Oblokos Root2 documentation."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="OBLOKOS - Home" />
+    <meta
+      property="og:description"
+      content="Static archive page for the Oblokos Root2 documentation."
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="OBLOKOS - Home" />
+    <meta
+      name="twitter:description"
+      content="Static archive page for the Oblokos Root2 documentation."
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
-    <main class="wrap">
-      <header>
-        <h1>OBLOKOS</h1>
-        <p class="sub">Finite sculptural NFT system. Permanent archive.</p>
-        <p class="domain">Domain: oblokos.nft</p>
-        <ul class="state-lines">
-          <li>Core infrastructure: Polygon + Arweave</li>
-          <li>Cycle: Closed (as-built)</li>
-        </ul>
-        <div class="actions">
-          <a
-            id="root1Link"
-            class="btn"
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Open Root1 (NFT Infrastructure)</a
-          >
-          <a
-            id="teleportLink"
-            class="btn"
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Teleport Lab (Installation I)</a
-          >
-          <a id="dossierLink" class="btn" href="#">Download Dossier (PDF)</a>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <div>
+          <a class="project-title" href="./index.html">OBLOKOS</a>
+          <p class="project-subtitle">Root2 &mdash; Static Archive</p>
         </div>
-      </header>
-
-      <section aria-labelledby="anchors-title">
-        <h2 id="anchors-title">Verified Anchors</h2>
-        <div class="grid">
-          <article class="card">
-            <h3>Contract (Polygon)</h3>
-            <p id="contractValue" class="mono"></p>
-            <button type="button" data-copy-source="contractValue">Copy</button>
-          </article>
-          <article class="card">
-            <h3>Root1 TXID</h3>
-            <p id="root1TxidValue" class="mono"></p>
-            <button type="button" data-copy-source="root1TxidValue">
-              Copy
-            </button>
-          </article>
-          <article class="card">
-            <h3>Root1 Index URL</h3>
-            <p id="root1IndexValue" class="mono"></p>
-            <button type="button" data-copy-source="root1IndexValue">
-              Copy
-            </button>
-          </article>
-        </div>
-        <p class="note" style="margin-top: 12px">
-          Root1 contains NFT metadata and renders. Root2 contains institutional
-          documentation.
-        </p>
-      </section>
-
-      <section aria-labelledby="manifesto-title">
-        <h2 id="manifesto-title">Manifesto</h2>
-        <p>
-          Oblokos is a finite system made of fragments, not isolated objects.<br />
-          Each fragment enters layered constructions: spatial, ecological,
-          perceptual, and on-chain.<br />
-          Error is treated as material evidence, not a defect to hide.<br />
-          Glitch acts as a constructive condition inside the work.<br />
-          The archive preserves both execution and limits.
-        </p>
-        <details style="margin-top: 14px">
-          <summary>Read full manifesto</summary>
+        <nav class="top-nav" aria-label="Main navigation">
+          <a href="./index.html" aria-current="page">Home</a
+          ><a href="./manifesto.html">Manifesto</a
+          ><a href="./whitepaper.html">Whitepaper</a
+          ><a href="./closing-statement.html">Closing Statement</a
+          ><a href="./teleport-lab.html">Teleport Lab</a
+          ><a href="./credits.html">Credits</a>
+        </nav>
+      </div>
+    </header>
+    <main id="content" class="content-wrap with-toc">
+      <article class="prose">
+        <section class="anchors" aria-label="Verifiable anchors">
+          <h2>Verifiable Anchors</h2>
           <p>
-            Oblokos is built as a finite sculptural NFT system on Polygon and
-            Arweave. Tokens are structural units that gain meaning in relation
-            to each other, in space and in sequence. The work accepts layered
-            composition: architecture, energy, ecology, perception, narrative,
-            and verifiable provenance.
+            <strong>Contract (Polygon ERC-721):</strong>
+            <code>0x252f9390feb63aeb00042dd5c4ff84af33f42b85</code>
           </p>
-          <p style="margin-top: 10px">
-            Computational anomalies are retained as part of the record. Glitch
-            is approached as a stable production condition that exposes process
-            and constraint. The archive is not promotional media; it is
-            technical memory with explicit anchors and reproducible references.
+          <p>
+            <strong>Root1 (Arweave):</strong>
+            <code>PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg</code>
           </p>
-        </details>
-      </section>
-
-      <section aria-labelledby="closing-title">
-        <h2 id="closing-title">Closing Statement</h2>
-        <details>
-          <summary>Read as-built declaration</summary>
-          <p>This cycle is closed.</p>
-          <p>No retroactive rewriting.</p>
-          <p>Future works will be new cycles / contracts.</p>
-          <p id="contractStatus" style="margin-top: 10px"></p>
-          <p id="renounceDetail" class="muted" style="margin-top: 6px"></p>
-        </details>
-      </section>
-
-      <section aria-labelledby="installations-title">
-        <h2 id="installations-title">Installations</h2>
-        <article class="card" style="min-height: 0">
-          <h3>Teleport Lab</h3>
-          <p class="muted">Platform: Spatial</p>
-          <p class="install-note">
-            Platform-dependent installation. Documentation preserved here.
+        </section>
+        <p>
+          <img src="./assets/logo_oblokos_original.png" alt="Oblokos Logo" />
+        </p>
+        <h1 id="oblokos---archive-and-document-index">
+          OBLOKOS - Archive and Document Index
+        </h1>
+        <blockquote>
+          <p>
+            Fragmented sculptural NFT system (ERC-721 on Polygon) with permanent
+            infrastructure on Arweave.
           </p>
-          <div class="install-links">
+        </blockquote>
+        <h2 id="system-status">System status</h2>
+        <ul>
+          <li>Core infrastructure: Polygon + Arweave</li>
+          <li>Cycle status: Closed (as-built)</li>
+          <li>Institutional domain: <code>oblokos.nft</code></li>
+        </ul>
+        <h2 id="verifiable-anchors">Verifiable anchors</h2>
+        <ul>
+          <li>
+            Contract (Polygon / ERC-721):
+            <code>0x252f9390feb63aeb00042dd5c4ff84af33f42b85</code>
+          </li>
+          <li>
+            Root 1 (Arweave):
+            <code>PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg</code>
+          </li>
+          <li>
+            Root 1 public index:
             <a
-              id="teleportLabOpen"
-              class="btn"
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Open in Spatial</a
+              href="https://arweave.net/PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg/"
+              >https://arweave.net/PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg/</a
             >
-            <a class="btn" href="./docs/teleport_lab_dossier.md"
-              >Dossier Markdown</a
-            >
-            <a class="btn" href="./docs/credits_teleport_lab.md"
-              >Credits Markdown</a
-            >
-            <a class="btn" href="./docs/glitch_system.md"
-              >Glitch Doc Markdown</a
-            >
-          </div>
-        </article>
-        <p class="muted" style="margin-top: 14px">Future installations</p>
-      </section>
-
-      <section aria-labelledby="docs-title">
-        <h2 id="docs-title">Documentation</h2>
-        <ul id="docsList" class="doc-list"></ul>
-      </section>
-
-      <section aria-labelledby="contact-title">
-        <h2 id="contact-title">Contact</h2>
-        <p class="contact-line">
-          Email:
-          <a href="mailto:oblokos.web@gmail.com">oblokos.web@gmail.com</a>
+          </li>
+        </ul>
+        <p>
+          These anchors allow verification of ownership, metadata, and renders
+          without relying on a single exhibition platform.
         </p>
-        <p class="contact-line">
-          PGP fingerprint:
-          <span id="pgpFingerprint" class="mono"
-            >XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX</span
-          >
+        <h2 id="editorial-summary">Editorial summary</h2>
+        <h3 id="project-identity">Project identity</h3>
+        <p>
+          Oblokos is a finite fragment system, not a collection of isolated
+          pieces. Each NFT works as a structural and conceptual unit, and glitch
+          is treated as a constructive condition (not ornament).
         </p>
-        <p class="contact-line muted">
-          For acquisition inquiries, include intended venue/platform and
-          timeframe.
+        <p>Primary reference: <a href="./manifesto.html">manifesto</a></p>
+        <h3 id="teleport-lab-derived-installation">
+          Teleport Lab (derived installation)
+        </h3>
+        <p>
+          Teleport Lab is a site-specific installation in Spatial using OBLK
+          fragments as sculptural matter for portals, energetic layers, and
+          ecological/perceptual reading. The 3D experience may depend on
+          Spatial, but technical and documentary traceability can be preserved
+          outside the platform.
         </p>
-      </section>
-
-      <footer>
-        <p>OBLOKOS. Permanent archive. Verifiable anchors.</p>
-        <p id="footerYear"></p>
-      </footer>
+        <p>
+          Primary reference:
+          <a href="./teleport-lab.html">docs/teleport_lab_dossier</a>
+        </p>
+        <h3 id="cycle-closure">Cycle closure</h3>
+        <p>
+          The current cycle is declared closed: no retroactive metadata/image
+          rewrites and no additional emissions under the same contract. New
+          stages require a new cycle (new contract and/or new roots).
+        </p>
+        <p>
+          Primary reference:
+          <a href="./closing-statement.html">docs/closing_statement</a>
+        </p>
+        <h2 id="document-map">Document map</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>File</th>
+              <th>Purpose</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="./manifesto.html">manifesto</a></td>
+              <td>
+                Artist identity statement and core principles of the Oblokos
+                system.
+              </td>
+            </tr>
+            <tr>
+              <td><a href="./whitepaper.html">docs/whitepaper_v2</a></td>
+              <td>
+                Conceptual and technical specification of fragments, layers,
+                ownership, Polygon + Arweave infrastructure, and closed-cycle
+                governance.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="./teleport-lab.html">docs/teleport_lab_dossier</a>
+              </td>
+              <td>
+                Curatorial and technical dossier for Teleport Lab: fact sheet,
+                portal narrative, operation, preservation, and transfer model.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="./docs/nfts_teleport_lab.md">docs/nfts_teleport_lab</a>
+              </td>
+              <td>
+                Inventory of NFTs used in Teleport Lab with token IDs, Arweave
+                links, and marketplace references.
+              </td>
+            </tr>
+            <tr>
+              <td><a href="./docs/glitch_system.md">docs/glitch_system</a></td>
+              <td>
+                Glitch framework as a transversal sculptural mechanic
+                (z-fighting, transparency, flicker) and system coherence
+                criterion.
+              </td>
+            </tr>
+            <tr>
+              <td><a href="./credits.html">docs/credits_teleport_lab</a></td>
+              <td>
+                Full credits and licenses (CC-BY and proprietary components).
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="./docs/acquisition_document.md"
+                  >docs/acquisition_document</a
+                >
+              </td>
+              <td>
+                Installation acquisition/transfer template: included NFTs,
+                rights, exclusivity, and operational clauses.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="./closing-statement.html">docs/closing_statement</a>
+              </td>
+              <td>
+                Official closure statement and post-decentralization rules.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 id="recommended-reading-order">Recommended reading order</h2>
+        <ol>
+          <li><a href="./manifesto.html">manifesto</a></li>
+          <li><a href="./whitepaper.html">docs/whitepaper_v2</a></li>
+          <li><a href="./teleport-lab.html">docs/teleport_lab_dossier</a></li>
+          <li><a href="./docs/glitch_system.md">docs/glitch_system</a></li>
+          <li>
+            <a href="./docs/nfts_teleport_lab.md">docs/nfts_teleport_lab</a>
+          </li>
+          <li><a href="./credits.html">docs/credits_teleport_lab</a></li>
+          <li>
+            <a href="./docs/acquisition_document.md"
+              >docs/acquisition_document</a
+            >
+          </li>
+          <li><a href="./closing-statement.html">docs/closing_statement</a></li>
+        </ol>
+        <h2 id="contact">Contact</h2>
+        <ul>
+          <li>
+            Email:
+            <code
+              ><a href="mailto:oblokos.web@gmail.com"
+                >oblokos.web@gmail.com</a
+              ></code
+            >
+          </li>
+          <li>
+            Web3 domain: <strong>oblokos.nft</strong> (Unstoppable Domains)
+          </li>
+        </ul>
+      </article>
+      <aside class="toc" aria-label="Table of contents">
+        <h2>Contents</h2>
+        <ul>
+          <li><a href="#language-versions">Language versions</a></li>
+          <li><a href="#system-status">System status</a></li>
+          <li><a href="#verifiable-anchors">Verifiable anchors</a></li>
+          <li><a href="#editorial-summary">Editorial summary</a></li>
+          <li class="toc-sub">
+            <a href="#project-identity">Project identity</a>
+          </li>
+          <li class="toc-sub">
+            <a href="#teleport-lab-derived-installation"
+              >Teleport Lab (derived installation)</a
+            >
+          </li>
+          <li class="toc-sub"><a href="#cycle-closure">Cycle closure</a></li>
+          <li><a href="#document-map">Document map</a></li>
+          <li>
+            <a href="#recommended-reading-order">Recommended reading order</a>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </aside>
     </main>
-
-    <script>
-      const CONTRACT_RENOUNCED = false;
-      const CONTRACT_ADDRESS = "0x252f9390feb63aeb00042dd5c4ff84af33f42b85";
-      const ROOT1_TXID = "PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg";
-      const ROOT1_INDEX_URL =
-        "https://arweave.net/PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg/";
-
-      const TELEPORT_LAB_URL =
-        "https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462";
-      const DOSSIER_PDF_URL = "./docs/teleport_lab_dossier.md";
-      const PGP_FINGERPRINT =
-        "XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX";
-
-      const DOCUMENTS = [
-        {
-          label: "whitepaper_v2.md",
-          path: "./docs/whitepaper_v2.md",
-          uploaded: false,
-        },
-        {
-          label: "teleport_lab_dossier.md",
-          path: "./docs/teleport_lab_dossier.md",
-          uploaded: false,
-        },
-        {
-          label: "credits_teleport_lab.md",
-          path: "./docs/credits_teleport_lab.md",
-          uploaded: false,
-        },
-        {
-          label: "glitch_system.md",
-          path: "./docs/glitch_system.md",
-          uploaded: false,
-        },
-        {
-          label: "acquisition_document.md",
-          path: "./docs/acquisition_document.md",
-          uploaded: false,
-        },
-        {
-          label: "closing_statement.md",
-          path: "./docs/closing_statement.md",
-          uploaded: false,
-        },
-        {
-          label: "nfts_teleport_lab.md",
-          path: "./docs/nfts_teleport_lab.md",
-          uploaded: false,
-        },
-      ];
-
-      function detectTxid() {
-        const first = window.location.pathname.split("/").filter(Boolean)[0];
-        return /^[a-zA-Z0-9_-]{43}$/.test(first || "") ? first : null;
-      }
-
-      function getArchiveBase(txid) {
-        if (!txid) {
-          return null;
-        }
-        if (window.location.hostname === "arweave.net") {
-          return "https://arweave.net/" + txid;
-        }
-        return window.location.origin + "/" + txid;
-      }
-
-      async function copyText(text, button) {
-        const label = button.textContent;
-        try {
-          if (navigator.clipboard && window.isSecureContext) {
-            await navigator.clipboard.writeText(text);
-          } else {
-            const temp = document.createElement("textarea");
-            temp.value = text;
-            document.body.appendChild(temp);
-            temp.select();
-            document.execCommand("copy");
-            temp.remove();
-          }
-          button.textContent = "Copied";
-        } catch (err) {
-          button.textContent = "Failed";
-        }
-        setTimeout(function () {
-          button.textContent = label;
-        }, 900);
-      }
-
-      function resolveCopyUrl(relativePath, base) {
-        if (!base) {
-          return relativePath;
-        }
-        return new URL(
-          relativePath.replace(/^\.\//, ""),
-          base + "/",
-        ).toString();
-      }
-
-      function buildDocs(base) {
-        const list = document.getElementById("docsList");
-        DOCUMENTS.forEach(function (doc) {
-          const li = document.createElement("li");
-          li.className = "doc-item";
-
-          const head = document.createElement("div");
-          head.className = "doc-head";
-
-          const name = document.createElement("span");
-          name.className = "mono";
-          name.textContent = doc.path;
-          head.appendChild(name);
-
-          if (!doc.uploaded) {
-            const pending = document.createElement("span");
-            pending.className = "pending";
-            pending.textContent = "(pending upload)";
-            head.appendChild(pending);
-          }
-
-          const actions = document.createElement("div");
-          actions.className = "inline-actions";
-
-          const download = document.createElement("a");
-          download.className = "btn";
-          download.href = doc.path;
-          download.textContent = "Download";
-          download.setAttribute("download", "");
-
-          const copyBtn = document.createElement("button");
-          copyBtn.type = "button";
-          copyBtn.textContent = "Copy URL";
-          copyBtn.addEventListener("click", function () {
-            copyText(resolveCopyUrl(doc.path, base), copyBtn);
-          });
-
-          actions.appendChild(download);
-          actions.appendChild(copyBtn);
-
-          li.appendChild(head);
-          li.appendChild(actions);
-          list.appendChild(li);
-        });
-      }
-
-      function init() {
-        const txid = detectTxid();
-        const base = getArchiveBase(txid);
-
-        document.getElementById("root1Link").href = ROOT1_INDEX_URL;
-        document.getElementById("teleportLink").href = TELEPORT_LAB_URL;
-        document.getElementById("dossierLink").href = DOSSIER_PDF_URL;
-        document.getElementById("teleportLabOpen").href = TELEPORT_LAB_URL;
-        document.getElementById("pgpFingerprint").textContent = PGP_FINGERPRINT;
-
-        document.getElementById("contractValue").textContent = CONTRACT_ADDRESS;
-        document.getElementById("root1TxidValue").textContent = ROOT1_TXID;
-        document.getElementById("root1IndexValue").textContent =
-          ROOT1_INDEX_URL;
-
-        document
-          .querySelectorAll("[data-copy-source]")
-          .forEach(function (button) {
-            button.addEventListener("click", function () {
-              const source = document.getElementById(
-                button.getAttribute("data-copy-source"),
-              );
-              if (!source || source.textContent.trim() === "unknown") {
-                return;
-              }
-              copyText(source.textContent.trim(), button);
-            });
-          });
-
-        if (CONTRACT_RENOUNCED) {
-          document.getElementById("contractStatus").textContent =
-            "Status: Contract renounced";
-          document.getElementById("renounceDetail").textContent =
-            "Contract ownership renounced. Immutable administrative state.";
-        } else {
-          document.getElementById("contractStatus").textContent =
-            "Status: Pending contract renounce";
-          document.getElementById("renounceDetail").textContent =
-            "Ownership renounce is planned to finalize the administrative lifecycle.";
-        }
-
-        buildDocs(base);
-        document.getElementById("footerYear").textContent = String(
-          new Date().getFullYear(),
-        );
-      }
-
-      init();
-    </script>
+    <footer class="site-footer">
+      <p>
+        <strong>Contract (Polygon ERC-721):</strong>
+        <code>0x252f9390feb63aeb00042dd5c4ff84af33f42b85</code>
+      </p>
+      <p>
+        <strong>Root1 (Arweave):</strong>
+        <code>PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg</code>
+      </p>
+    </footer>
   </body>
 </html>
