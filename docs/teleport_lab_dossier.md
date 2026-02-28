@@ -29,7 +29,7 @@ Work inside the **Oblokos (OBLK)** system.
 | **Public link**                      | https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462                                              |
 | **Associated NFT system**            | Oblokos (OBLK) - ERC-721 on Polygon                                                                         |
 | **Contract (Polygon)**               | 0x252f9390feb63aeb00042dd5c4ff84af33f42b85                                                                  |
-| **Supply / holders (snapshot)**      | 1,588 tokens / 5 holders                                                                                    |
+| **Supply / holders (snapshot)**      | 1,588 tokens / 5 holder; Snapshot: Feb 2026                                                                                    |
 | **Permanent infra (Arweave Root 1)** | PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg                                                                 |
 | **Public index (Arweave)**           | https://arweave.net/PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg/                                            |
 | **Credits and licenses**             | Full auditable inventory (CC-BY + proprietary)                                                              |

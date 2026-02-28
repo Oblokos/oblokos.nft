@@ -19,7 +19,7 @@
 
 - Contract (Polygon / ERC-721): `0x252f9390feb63aeb00042dd5c4ff84af33f42b85`
 - Root 1 (Arweave): `PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg`
-- Root 1 public index: <https://arweave.net/PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg/>
+- Root 1 public index: https://arweave.net/PCx7dfAg6p2cN8y5FbrZaLuYvS5o7ecyVi821yyLoPg/
 
 These anchors allow verification of ownership, metadata, and renders without relying on a single exhibition platform.
 
