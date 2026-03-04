@@ -166,7 +166,6 @@ The piece is organized as a double-vortex system connected by a beam, with a cen
 - **Two operable vortices (entry/exit):** each end integrates 3D models as part of the mechanism; bubbles emerge from them as a signal of pressure or discharge.
 - **Gravitational core:** at the center, two 3D models intersect; the core is perceived as a zone of spatial conflict where the beam becomes mass.
 - **The beam as body:** the beam is formed by assembled Oblokos NFTs as an energy conductor and evidence of the phenomenon. It presents dense stretches (layer overlap) and a deliberately minimal stretch - a dotted line built by successive frames - to allow route passage without shutting down the event.
-- **NFT oval + jellyfish in transit:** in one section an NFT ring/oval appears; at its center, a distorted and stretched jellyfish is shown explicitly in transit inside the beam, deformed by the field.
 
 In Sena, glitch functions as perceptual electrical discharge: edge vibration, interference, and incomplete readings due to competition between layers and transparencies. The piece sustains a double reading: phenomenon + archive. Near the portal there are samples of the NFTs used and an anchor image linking to external documentation with a dedicated viewer.
 

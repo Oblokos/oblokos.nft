@@ -166,7 +166,6 @@ La pieza se organiza como sistema de doble vórtice conectado por un rayo, con u
 - **Dos vórtices operables (entrada/salida):** cada extremo integra modelos 3D como parte del mecanismo; de ellos emergen burbujas como señal de presión o descarga.
 - **Núcleo gravitatorio:** en el centro, dos modelos 3D se interceptan; el núcleo se percibe como zona de conflicto espacial donde el rayo se vuelve masa.
 - **El rayo como cuerpo:** el rayo está formado por NFTs de Oblokos ensamblados como conductor de energía y evidencia del fenómeno. Presenta tramos densos (superposición de capas) y un tramo deliberadamente mínimo —una línea punteada construida por cuadros sucesivos— para permitir el paso del recorrido sin apagar el evento.
-- **Óvalo de NFTs + medusa en tránsito:** en una sección aparece un anillo/óvalo de NFTs; en su centro, una medusa distorsionada y estirada se muestra explícitamente en tránsito dentro del rayo, deformada por el campo.
 
 En Sena el glitch funciona como descarga eléctrica perceptual: vibración de bordes, interferencia y lecturas incompletas por competencia entre capas y transparencias. La pieza sostiene una doble lectura: fenómeno + archivo. Cerca del portal hay muestras de los NFTs utilizados y una imagen‑ancla que enlaza a la documentación externa con visor dedicado.
 
