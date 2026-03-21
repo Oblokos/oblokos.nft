@@ -24,4 +24,4 @@ Núcleo totalmente descentralizado: propiedad on-chain + archivo permaweb perman
 
 Contacto: oblokos.web@gmail.com
 Dossier (Markdown): [Dossier Teleport Lab](/docs/teleport_lab_dossier_es.md)
-Teleport Lab: https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462
+Teleport Lab: https://www.spatial.io/s/Teleport-Lab-Next-69be224577252f463df92899

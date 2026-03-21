@@ -6,7 +6,7 @@
 
 **Artista:** Oblokos | **Creador en Spatial:** Luiggi (@oblokos)  
 **Año / release date:** 11 noviembre 2022 | **Edición:** Febrero 2026  
-**Link público:** https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462
+**Link público:** https://www.spatial.io/s/Teleport-Lab-Next-69be224577252f463df92899
 
 Obra dentro del sistema **Oblokos (OBLK)**.  
 **Capas:** arquitectura, energía, ecosistemas, glitch y datos on-chain.
@@ -26,7 +26,7 @@ Obra dentro del sistema **Oblokos (OBLK)**.
 | **Accesibilidad**                     | Web / Mobile / VR (según disponibilidad de Spatial)                                                                  |
 | **Arquitectura base**                 | Template Agora (Spatial)                                                                                             |
 | **Dimensiones del ambiente (Agora)**  | X 165 m / Y 20 m / Z 110 m (aprox.)                                                                                  |
-| **Link público**                      | https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462                                                       |
+| **Link público**                      | https://www.spatial.io/s/Teleport-Lab-Next-69be224577252f463df92899                                                       |
 | **Sistema NFT asociado**              | Oblokos (OBLK) — ERC-721 en Polygon                                                                                  |
 | **Contrato (Polygon)**                | 0x252f9390feb63aeb00042dd5c4ff84af33f42b85                                                                           |
 | **Supply / holders (snapshot)**       | 1,588 tokens / 5 holder; Snapshot: Feb 2026                                                                                    |

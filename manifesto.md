@@ -25,4 +25,4 @@ Fully decentralized core: on-chain ownership + permanent permaweb archive.
 Contact: oblokos.web@gmail.com
 Dossier (Markdown): [Teleport Lab Dossier](/docs/teleport_lab_dossier.md)
 Spanish version: [Manifesto ES](/manifesto_es.md)
-Teleport Lab: https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462
+Teleport Lab: https://www.spatial.io/s/Teleport-Lab-Next-69be224577252f463df92899

@@ -42,7 +42,7 @@ El sistema Oblokos está anclado por identificadores canónicos on-chain y de al
 **2.2 ID de instalación:** 635f20c496af010001450462  
 **2.3 Fecha de adquisición:** [DATE]  
 **2.4 Plataforma / contexto de despliegue:** Spatial.io (por ejemplo: Spatial, WebGL custom, display físico, híbrido)  
-**2.5 Link de acceso público (si aplica):** https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462  
+**2.5 Link de acceso público (si aplica):** https://www.spatial.io/s/Teleport-Lab-Next-69be224577252f463df92899  
 **2.6 Descripción de la instalación (configuración canónica)**  
 La Instalación se define como una configuración escultórica específica compuesta por:
 
@@ -301,7 +301,7 @@ ID del documento: [DOC_ID]
 2.2 ID de instalación: 635f20c496af010001450462  
 2.3 Fecha: [DATE]  
 2.4 Plataforma / contexto de despliegue: Spatial.io  
-2.5 Link de acceso público (si aplica): https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462  
+2.5 Link de acceso público (si aplica): https://www.spatial.io/s/Teleport-Lab-Next-69be224577252f463df92899  
 2.6 Definición de la configuración vendida  
 2.6.1 Fragmentos escultóricos tokenizados (NFTs) usados en el ensamblaje  
 2.6.2 Configuración espacial (layout/transforms y parámetros de composición)  
@@ -396,7 +396,7 @@ Anexo B - Hashes de transacción de transferencia: [PASTE LIST]
 [INSTALLATION_ID]: 635f20c496af010001450462
 [INSTALLATION_DATE]: 2022-11-11
 [PLATFORM_NAME]: Spatial.io
-[PUBLIC_ACCESS_URL]: https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462
+[PUBLIC_ACCESS_URL]: https://www.spatial.io/s/Teleport-Lab-Next-69be224577252f463df92899
 
 [TOKEN_ID_LIST]:
   - 316
