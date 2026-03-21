@@ -42,7 +42,7 @@ The Oblokos system is anchored by canonical on-chain and permanent storage ident
 **2.2 Installation ID:** 635f20c496af010001450462
 **2.3 Date of Acquisition:** [DATE]
 **2.4 Platform / Deployment Context:** Spatial.io (e.g., Spatial, custom WebGL, physical display, hybrid)
-**2.5 Public Access Link (if applicable):** https://www.spatial.io/s/Teleport-Lab-Next-69be224577252f463df92899
+**2.5 Public Access Link (if applicable):** https://oblokos.com/tl-spatial_io.html
 **2.6 Installation Description (canonical configuration)**
 The Installation is defined as a specific sculptural configuration consisting of:
 
@@ -297,7 +297,7 @@ Document ID: [DOC_ID]
 2.2 Installation ID: 635f20c496af010001450462
 2.3 Date: [DATE]
 2.4 Platform / Deployment Context: Spatial.io
-2.5 Public Access Link (if applicable): https://www.spatial.io/s/Teleport-Lab-Next-69be224577252f463df92899
+2.5 Public Access Link (if applicable): https://oblokos.com/tl-spatial_io.html
 2.6 Definition of the Sold Configuration
 2.6.1 Tokenized sculptural fragments (NFTs) used in the assembly
 2.6.2 Spatial configuration (layout/transforms and composition parameters)
@@ -392,7 +392,7 @@ Schedule B - Transfer Transaction Hashes: [PASTE LIST]
 [INSTALLATION_ID]: 635f20c496af010001450462
 [INSTALLATION_DATE]: 2022-11-11
 [PLATFORM_NAME]: Spatial.io
-[PUBLIC_ACCESS_URL]: https://www.spatial.io/s/Teleport-Lab-Next-69be224577252f463df92899
+[PUBLIC_ACCESS_URL]: https://oblokos.com/tl-spatial_io.html
 
 [TOKEN_ID_LIST]: See Teleport Lab NFT Inventory docs/nfts_teleport_lab.md
 
