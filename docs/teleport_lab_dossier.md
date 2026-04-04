@@ -190,6 +190,22 @@ Within the Teleport Lab system, the piece acts as emotional pause and sensory ab
 
 ---
 
+## Orinoco Fragments
+
+Orinoco Fragments is a derived sculptural collection developed from the conceptual and spatial field of the Orinoco Portal within Teleport Lab. Presented on OBJKT as a collection by Oblokos, it is framed as a body of works emerging from the broader Oblokos / Teleport Lab sculptural system rather than as a detached NFT drop. The collection page describes it as “derived works” from that system, reinforcing its role as an extension of the installation rather than a separate visual brand.
+
+Within Teleport Lab, the Orinoco Portal operates as an active ecosystem rather than a neutral passage: a site where alien vegetation, architectural disruption, warning signals, absorbed masonry, and blockchain-visible fragments are brought into the same sculptural field. Its logic is not decorative but transformational. The portal alters the gallery around it, turning architecture into affected matter and presenting the surrounding environment as a zone of transfer, mutation, and residue. Orinoco Fragments emerges from that logic by isolating and rearticulating some of those conditions as autonomous collectible works.
+
+The collection should therefore be understood through the core Oblokos principle of fragments and layers. In the Oblokos system, a fragment is never only a part; it also functions as a layer within a broader sculptural assembly—architectural, energetic, ecological, narrative, glitch-based, or blockchain-based. Orinoco Fragments preserves that reading. Each work can be approached as a concentrated sculptural remainder of the Orinoco field: not simply an image extracted from the installation, but a retained condition of its behavior. Some pieces read as residual matter from the portal’s energetic structure, others as botanical or mineral evidence of ecosystem transfer, and others as traces of computational instability translated into form.
+
+This is especially important in relation to glitch, which in Oblokos is treated not as an accident or a visual effect but as structural language. Depth conflict, unstable transparency, flicker, and partial revelation are used as sculptural mechanisms that make forms feel suspended between states. In Orinoco Fragments, these instabilities are condensed into collectible objects: each piece carries the sensation of a system that has not fully stabilized, as if the work were still negotiating between architecture, energy, and alien matter. What appears broken is better understood as a visible seam between incompatible layers.
+
+As a collection, Orinoco Fragments also extends the life of Teleport Lab beyond its site-specific existence in Spatial. While the installation remains an immersive environment dependent on platform-based experience, the fragments circulate as portable sculptural units that preserve the conceptual DNA of the portal in a new format. They function simultaneously as independent works and as evidence of a larger distributed sculpture system in which NFT-based fragments can participate in broader assemblies. In that sense, the collection does not merely document the Orinoco Portal; it continues it in another scale and mode of encounter.
+
+Collection link: https://objkt.com/collections/KT1DtY6oXgXzRD7efzQqR1UhJbPWefBPzYe8
+
+---
+
 ## Technical architecture and operation
 
 Teleport Lab is built on a **"base architecture + sculptural composition"** model. The base architecture comes from Spatial's Agora template, and the work is organized as overlapping layers within that environment.
@@ -267,22 +283,6 @@ The package includes:
 The work is delivered and verified as operational at deployment time. Subsequent modifications by buyer or third parties are outside the artist's maintenance scope.
 
 Restoration or reinstallation services can be agreed by commission and availability.
-
----
-
-## Orinoco Fragments
-
-Orinoco Fragments is a derived sculptural collection developed from the conceptual and spatial field of the Orinoco Portal within Teleport Lab. Presented on OBJKT as a collection by Oblokos, it is framed as a body of works emerging from the broader Oblokos / Teleport Lab sculptural system rather than as a detached NFT drop. The collection page describes it as “derived works” from that system, reinforcing its role as an extension of the installation rather than a separate visual brand.
-
-Within Teleport Lab, the Orinoco Portal operates as an active ecosystem rather than a neutral passage: a site where alien vegetation, architectural disruption, warning signals, absorbed masonry, and blockchain-visible fragments are brought into the same sculptural field. Its logic is not decorative but transformational. The portal alters the gallery around it, turning architecture into affected matter and presenting the surrounding environment as a zone of transfer, mutation, and residue. Orinoco Fragments emerges from that logic by isolating and rearticulating some of those conditions as autonomous collectible works.
-
-The collection should therefore be understood through the core Oblokos principle of fragments and layers. In the Oblokos system, a fragment is never only a part; it also functions as a layer within a broader sculptural assembly—architectural, energetic, ecological, narrative, glitch-based, or blockchain-based. Orinoco Fragments preserves that reading. Each work can be approached as a concentrated sculptural remainder of the Orinoco field: not simply an image extracted from the installation, but a retained condition of its behavior. Some pieces read as residual matter from the portal’s energetic structure, others as botanical or mineral evidence of ecosystem transfer, and others as traces of computational instability translated into form.
-
-This is especially important in relation to glitch, which in Oblokos is treated not as an accident or a visual effect but as structural language. Depth conflict, unstable transparency, flicker, and partial revelation are used as sculptural mechanisms that make forms feel suspended between states. In Orinoco Fragments, these instabilities are condensed into collectible objects: each piece carries the sensation of a system that has not fully stabilized, as if the work were still negotiating between architecture, energy, and alien matter. What appears broken is better understood as a visible seam between incompatible layers.
-
-As a collection, Orinoco Fragments also extends the life of Teleport Lab beyond its site-specific existence in Spatial. While the installation remains an immersive environment dependent on platform-based experience, the fragments circulate as portable sculptural units that preserve the conceptual DNA of the portal in a new format. They function simultaneously as independent works and as evidence of a larger distributed sculpture system in which NFT-based fragments can participate in broader assemblies. In that sense, the collection does not merely document the Orinoco Portal; it continues it in another scale and mode of encounter.
-
-Collection link: https://objkt.com/collections/KT1DtY6oXgXzRD7efzQqR1UhJbPWefBPzYe8
 
 ---
 
